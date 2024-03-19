@@ -185,6 +185,8 @@
         "accuracy": 85,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "clefairy",
             "clefable",
@@ -260,6 +262,8 @@
         "accuracy": 85,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "hitmonchan",
             "kangaskhan",
@@ -1153,7 +1157,11 @@
             "The target is punched with an icy fist. This may also leave the target frozen."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Thunder punch": {
         "id": "0009",
@@ -4611,6 +4619,8 @@
         "accuracy": 85,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "beedrill",
             "spearow",
@@ -5916,7 +5926,11 @@
             "The user drops onto the target with its full body weight. This may also leave the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 30
+        }
     },
     "Wrap": {
         "id": "0035",
@@ -7997,7 +8011,11 @@
             "The user stabs the target with a poisonous stinger. This may also poison the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 30
+        }
     },
     "Twineedle": {
         "id": "0041",
@@ -8008,6 +8026,8 @@
         "accuracy": 100,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 2,
         "learned_by_pokemon": [
             "beedrill",
             "shellder",
@@ -8039,7 +8059,11 @@
             "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 20
+        }
     },
     "Pin missile": {
         "id": "0042",
@@ -8050,6 +8074,8 @@
         "accuracy": 95,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "beedrill",
             "sandslash",
@@ -9413,7 +9439,11 @@
             "A soothing lullaby is sung in a calming voice that puts the target into a deep slumber."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Supersonic": {
         "id": "0048",
@@ -9902,7 +9932,11 @@
             "The target is attacked with small flames. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Flamethrower": {
         "id": "0053",
@@ -10202,7 +10236,11 @@
             "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Mist": {
         "id": "0054",
@@ -11474,7 +11512,11 @@
             "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Blizzard": {
         "id": "0059",
@@ -11821,7 +11863,11 @@
             "A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen."
         ],
         "stat_changes": [],
-        "target": "all-opponents"
+        "target": "all-opponents",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Psybeam": {
         "id": "0060",
@@ -12220,7 +12266,11 @@
                 }
             }
         ],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Hyper beam": {
         "id": "0063",
@@ -15686,7 +15736,11 @@
             "The user scatters a cloud of numbing powder that paralyzes the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 100
+        }
     },
     "Sleep powder": {
         "id": "0079",
@@ -15750,7 +15804,11 @@
             "The user scatters a big cloud of sleep-inducing dust around the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Petal dance": {
         "id": "0080",
@@ -16244,7 +16302,11 @@
             "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 10
+        }
     },
     "Thunderbolt": {
         "id": "0085",
@@ -16619,7 +16681,11 @@
             "A strong electric blast crashes down on the target. This may also leave the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 10
+        }
     },
     "Thunder wave": {
         "id": "0086",
@@ -17009,7 +17075,11 @@
             "The user launches a weak jolt of electricity that paralyzes the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 100
+        }
     },
     "Thunder": {
         "id": "0087",
@@ -17346,7 +17416,11 @@
             "A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 10
+        }
     },
     "Rock throw": {
         "id": "0088",
@@ -19489,7 +19563,11 @@
             "A move that leaves the target badly poisoned. Its poison damage worsens every turn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Badly Poison",
+            "chance": 100
+        }
     },
     "Confusion": {
         "id": "0093",
@@ -20111,7 +20189,11 @@
             "The user employs hypnotic suggestion to make the target fall into a deep sleep."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Meditate": {
         "id": "0096",
@@ -25979,7 +26061,11 @@
             "The target is licked with a long tongue, causing damage. This may also leave the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 30
+        }
     },
     "Smog": {
         "id": "0123",
@@ -26045,7 +26131,11 @@
             "The target is attacked with a discharge of filthy gases. This may also poison the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 40
+        }
     },
     "Sludge": {
         "id": "0124",
@@ -26093,7 +26183,11 @@
             "Unsanitary sludge is hurled at the target. This may also poison the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 30
+        }
     },
     "Bone club": {
         "id": "0125",
@@ -26402,7 +26496,11 @@
             "The target is attacked with an intense blast of all-consuming fire. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Waterfall": {
         "id": "0127",
@@ -27433,6 +27531,8 @@
         "accuracy": 100,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "cloyster",
             "omanyte",
@@ -27913,7 +28013,11 @@
             "The user intimidates the target with the pattern on its belly to cause paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 100
+        }
     },
     "Dream eater": {
         "id": "0138",
@@ -28240,6 +28344,8 @@
         "accuracy": 85,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "exeggcute",
             "exeggutor",
@@ -28414,7 +28520,11 @@
             "With a scary face, the user tries to force a kiss on the target. If it succeeds, the target falls asleep."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Sky attack": {
         "id": "0143",
@@ -28735,7 +28845,11 @@
             "The user scatters bursts of spores that induce sleep."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Flash": {
         "id": "0148",
@@ -29716,6 +29830,8 @@
         "accuracy": 90,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 2,
         "learned_by_pokemon": [
             "cubone",
             "marowak",
@@ -31744,7 +31860,12 @@
             "The user strikes with a simultaneous three-beam attack. This may also burn, freeze, or paralyze the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": [
+            {"type": "Burn", "chance": 20},
+            {"type": "Freeze", "chance": 20},
+            {"type": "Paralysis", "chance": 20}
+        ]
     },
     "Super fang": {
         "id": "0162",
@@ -33413,11 +33534,13 @@
         "id": "0167",
         "name": "Triple kick",
         "type": "Fighting",
-        "power": 10,
+        "power": 20,
         "pp": 10,
         "accuracy": 90,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 3,
+        "max_hits": 3,
         "learned_by_pokemon": [
             "hitmontop",
             "pheromosa"
@@ -36843,7 +36966,11 @@
             "The user attacks with a chilling gust of powdery snow. This may also freeze opposing Pokémon."
         ],
         "stat_changes": [],
-        "target": "all-opponents"
+        "target": "all-opponents",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Protect": {
         "id": "0182",
@@ -39168,7 +39295,11 @@
             "Unsanitary sludge is hurled at the target. This may also poison the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 30
+        }
     },
     "Mud slap": {
         "id": "0189",
@@ -40866,6 +40997,8 @@
         "accuracy": 90,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "cubone",
             "marowak",
@@ -44915,7 +45048,11 @@
             "The user throws an electrically charged tackle at the target. This may also leave the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 30
+        }
     },
     "Fury cutter": {
         "id": "0210",
@@ -50320,7 +50457,11 @@
             "The target is razed with a mystical fire of great intensity. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 50
+        }
     },
     "Magnitude": {
         "id": "0222",
@@ -59028,7 +59169,11 @@
             "The user attacks by exhaling hot breath on opposing Pokémon. This may also leave those Pokémon with a burn."
         ],
         "stat_changes": [],
-        "target": "all-opponents"
+        "target": "all-opponents",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Hail": {
         "id": "0258",
@@ -59812,7 +59957,11 @@
             "The user shoots a sinister flame at the target to inflict a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 100
+        }
     },
     "Memento": {
         "id": "0262",
@@ -65126,7 +65275,11 @@
             "The user lets loose a huge yawn that lulls the target into falling asleep on the next turn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Knock off": {
         "id": "0282",
@@ -67543,7 +67696,11 @@
             "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 30
+        }
     },
     "Dive": {
         "id": "0291",
@@ -67745,6 +67902,8 @@
         "accuracy": 100,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "heracross",
             "makuhita",
@@ -68163,7 +68322,11 @@
             "The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Mud sport": {
         "id": "0300",
@@ -68703,7 +68866,11 @@
             "The user bites the target with toxic fangs. This may also leave the target badly poisoned."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 50
+        }
     },
     "Crush claw": {
         "id": "0306",
@@ -70792,7 +70959,11 @@
             "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Tickle": {
         "id": "0321",
@@ -71861,6 +72032,8 @@
         "accuracy": 100,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "bulbasaur",
             "ivysaur",
@@ -72491,6 +72664,8 @@
         "accuracy": 100,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "seel",
             "dewgong",
@@ -74095,7 +74270,11 @@
             "The user hits the target with its tail. This may also poison the target. Critical hits land more easily."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 10
+        }
     },
     "Covet": {
         "id": "0343",
@@ -75226,6 +75405,8 @@
         "accuracy": 90,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "nidoqueen",
             "nidoking",
@@ -82442,7 +82623,11 @@
             "The target is stabbed with a tentacle, arm, or the like steeped in poison. This may also poison the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 30
+        }
     },
     "Dark pulse": {
         "id": "0399",
@@ -87420,7 +87605,11 @@
             "The user bites with cold-infused fangs. This may also make the target flinch or leave it frozen."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Fire fang": {
         "id": "0424",
@@ -87583,7 +87772,11 @@
             "The user bites with flame-cloaked fangs. This may also make the target flinch or leave it with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Shadow sneak": {
         "id": "0425",
@@ -89415,7 +89608,11 @@
             "The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn."
         ],
         "stat_changes": [],
-        "target": "all-other-pokemon"
+        "target": "all-other-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 100
+        }
     },
     "Leaf storm": {
         "id": "0437",
@@ -89734,7 +89931,11 @@
             "A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 10
+        }
     },
     "Gunk shot": {
         "id": "0441",
@@ -89900,7 +90101,11 @@
             "The user shoots filthy garbage at the target to attack. This may also poison the target."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 30
+        }
     },
     "Iron head": {
         "id": "0442",
@@ -92298,7 +92503,11 @@
                 }
             }
         ],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 30
+        }
     },
     "Wood hammer": {
         "id": "0452",
@@ -92853,7 +93062,11 @@
             "Opposing Pokémon are dragged into a world of total darkness that makes them sleep."
         ],
         "stat_changes": [],
-        "target": "all-opponents"
+        "target": "all-opponents",
+        "status_effect": {
+            "type": "Sleep",
+            "chance": 100
+        }
     },
     "Seed flare": {
         "id": "0465",
@@ -94911,7 +95124,11 @@
             "The user strikes everything around it by swamping the area with a giant sludge wave. This may also poison those hit."
         ],
         "stat_changes": [],
-        "target": "all-other-pokemon"
+        "target": "all-other-pokemon",
+        "status_effect": {
+            "type": "Poison",
+            "chance": 10
+        }
     },
     "Quiver dance": {
         "id": "0483",
@@ -98635,7 +98852,11 @@
             "The user shoots boiling hot water at its target. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 30
+        }
     },
     "Shell smash": {
         "id": "0504",
@@ -102641,6 +102862,8 @@
         "accuracy": 85,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "vulpix",
             "ninetales",
@@ -102837,6 +103060,8 @@
         "accuracy": 85,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 2,
         "learned_by_pokemon": [
             "klink",
             "klang",
@@ -103038,7 +103263,11 @@
             "The user attacks by engulfing the target in an intense, yet beautiful, blue flame. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 20
+        }
     },
     "Fiery dance": {
         "id": "0552",
@@ -103072,7 +103301,11 @@
                 }
             }
         ],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 50
+        }
     },
     "Freeze shock": {
         "id": "0553",
@@ -104114,7 +104347,11 @@
             "The user rapidly cools the target. This may also leave the target frozen. This move is super effective on Water types."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Freeze",
+            "chance": 10
+        }
     },
     "Disarming voice": {
         "id": "0574",
@@ -106387,6 +106624,8 @@
         "accuracy": 100,
         "priority": 1,
         "damage_class": "Special",
+        "min_hits": 2,
+        "max_hits": 5,
         "learned_by_pokemon": [
             "accelgor",
             "greninja",
@@ -107465,7 +107704,11 @@
             "The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Paralysis",
+            "chance": 100
+        }
     },
     "Hold back": {
         "id": "0610",
@@ -110296,7 +110539,11 @@
                 }
             }
         ],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 10
+        }
     },
     "Power trip": {
         "id": "0681",
@@ -111180,7 +111427,11 @@
             "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on opposing Pokémon."
         ],
         "stat_changes": [],
-        "target": "all-opponents"
+        "target": "all-opponents",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 50
+        }
     },
     "Fleur cannon": {
         "id": "0705",
@@ -112472,7 +112723,11 @@
             "This move can't be used. It's recommended that this move is forgotten. Once forgotten, this move can't be remembered."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 100
+        }
     },
     "Glitzy glow": {
         "id": "0736",
@@ -112816,6 +113071,8 @@
         "accuracy": 100,
         "priority": 0,
         "damage_class": "Physical",
+        "min_hits": 2,
+        "max_hits": 2,
         "learned_by_pokemon": [
             "dragapult"
         ],
@@ -113551,7 +113808,11 @@
             "The user attacks by igniting a small stone and launching it as a fiery ball at the target. This may also leave the target with a burn."
         ],
         "stat_changes": [],
-        "target": "selected-pokemon"
+        "target": "selected-pokemon",
+        "status_effect": {
+            "type": "Burn",
+            "chance": 15
+        }
     },
     "Behemoth blade": {
         "id": "0781",

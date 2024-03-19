@@ -21,7 +21,6 @@ def fetch_move_data(move_id):
         "target": move_data["target"]["name"]
     }
 
-# The number of moves in Gen 1 is 165, but let's fetch a bit more in case the IDs are not completely sequential
 moves_data = {}
 i = 1
 for move_id in range(1, 801):  # Adjust based on the actual number of moves available
