@@ -4,7 +4,7 @@ from sys import exit
 
 WINDOW_WIDTH, WINDOW_HEIGHT = 1280, 720
 TILE_SIZE = 32
-ANIMATION_SPEED = 6
+ANIMATION_SPEED = 4
 BATTLE_OUTLINE_WIDTH = 4
 
 COLOURS = {
@@ -59,17 +59,23 @@ BATTLE_LAYERS =  {
 	'overlay': 4
 }
 
-INTRO_MAP_ORDER = {
-    'title': {
+MAP_ORDER = {
+    'forest_road': {
         "map_name": 'forest_road',
         "scene_type": 'cutscene',
-        "camera": 'player',
-        "camera_pos": 'car'
+        "camera": 'track',
+        "player_pos": 'car'
     },
-    'classroom': {
+    'classroom_intro': {
         "map_name": 'classroom',
         "scene_type": 'cutscene',
         "camera": 'locked',
-        "camera_pos": (0,0)
+        "player_pos": (0,0)
+	},
+    'classroom': {
+        "map_name": 'classroom',
+        "scene_type": 'game',
+        "camera": 'player',
+        "player_pos": 'seat'
 	}
 }

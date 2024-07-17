@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="145">
+ <tileset firstgid="1" source="../tilesets/interior.tsx"/>
+ <layer id="1" name="Terrain" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1971,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1972,1976,0,0,0,
+0,0,0,1984,1982,1982,1982,1982,1982,1982,1982,1982,1982,1982,1982,1982,1984,0,0,0,
+0,0,0,1984,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1984,0,0,0,
+0,0,0,1984,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1984,0,0,0,
+0,0,0,1984,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1990,1984,0,0,0,
+0,0,0,1984,3089,3090,3090,3090,3090,3090,3090,3090,3090,3090,3090,3091,1984,0,0,0,
+0,0,0,1984,3097,3098,3098,3098,3098,3098,3098,3098,3098,3098,3098,3099,1984,0,0,0,
+0,0,0,1979,3097,3098,3098,3098,3098,3098,3098,3098,3098,3098,3098,3099,1979,0,0,0,
+0,0,0,1987,3097,3098,3098,3098,3098,3098,3098,3098,3098,3098,3098,3099,1987,0,0,0,
+0,0,0,1987,3097,3098,3098,3098,3098,3098,3098,3098,3098,3098,3098,3099,1987,0,0,0,
+0,0,0,1987,3097,3098,3098,3098,3098,3098,3098,3098,3098,3098,3098,3099,1987,0,0,0,
+0,0,0,1995,3105,3106,3106,3106,3106,3106,3106,3106,3106,3106,3106,3107,1995,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Terrain Top" width="20" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,4558,4559,4560,2081,4536,0,0,4504,4506,4507,2081,0,0,0,0,0,
+0,0,0,0,2729,2730,2731,2081,4541,4542,4543,4512,4514,4515,2081,1298,0,0,0,0,
+0,0,0,0,2737,2738,2739,0,4549,4550,4551,4566,0,2081,0,1298,0,0,0,0,
+0,0,0,0,1298,3090,0,0,3719,0,3719,0,3719,2081,3719,1298,0,0,0,0,
+0,0,0,0,0,0,0,1298,3656,1298,3656,1298,3656,1298,3656,4295,0,0,0,0,
+0,0,0,0,4348,3005,0,0,3664,0,3664,0,3664,0,3664,4303,0,0,0,0,
+0,0,0,0,4348,1298,1298,1298,3712,3712,3712,3712,3712,3712,3712,4295,0,0,0,0,
+0,0,0,0,0,1298,1298,0,3656,3712,3656,3712,3656,3712,3656,4303,0,0,0,0,
+0,0,0,0,0,1298,1298,1298,3664,1298,3664,1298,3664,1298,3664,4311,0,0,0,0,
+0,0,0,0,0,1298,4271,0,0,0,0,0,0,0,0,4319,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Entities">
+  <object id="4" name="Character" x="176" y="352">
+   <properties>
+    <property name="change_direction" type="bool" value="false"/>
+    <property name="character_id" value="professor 1"/>
+    <property name="direction" value="right"/>
+    <property name="graphic" value="drayden"/>
+    <property name="radius" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" name="Character" x="464" y="352">
+   <properties>
+    <property name="change_direction" type="bool" value="false"/>
+    <property name="character_id" value="classmate 5"/>
+    <property name="direction" value="left"/>
+    <property name="graphic" value="collector"/>
+    <property name="radius" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="14" name="Player" x="464" y="448">
+   <properties>
+    <property name="direction" value="left"/>
+    <property name="pos" value="seat"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="16" name="Character" x="400" y="352">
+   <properties>
+    <property name="change_direction" type="bool" value="false"/>
+    <property name="character_id" value="classmate 3"/>
+    <property name="direction" value="left"/>
+    <property name="graphic" value="lady"/>
+    <property name="radius" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="19" name="Character" x="272" y="352">
+   <properties>
+    <property name="change_direction" type="bool" value="false"/>
+    <property name="character_id" value="classmate 1"/>
+    <property name="direction" value="left"/>
+    <property name="graphic" value="cheren"/>
+    <property name="radius" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="21" name="Character" x="336" y="448">
+   <properties>
+    <property name="change_direction" type="bool" value="false"/>
+    <property name="character_id" value="classmate 4"/>
+    <property name="direction" value="left"/>
+    <property name="graphic" value="rich boy"/>
+    <property name="radius" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="22" name="Character" x="272" y="448">
+   <properties>
+    <property name="change_direction" type="bool" value="false"/>
+    <property name="character_id" value="classmate 2"/>
+    <property name="direction" value="left"/>
+    <property name="graphic" value="lass"/>
+    <property name="radius" value="0"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Objects">
+  <object id="2" gid="3324" x="128" y="320" width="32" height="32"/>
+  <object id="3" gid="3316" x="128" y="288" width="32" height="32"/>
+  <object id="23" gid="4494" x="192" y="480" width="32" height="32"/>
+  <object id="24" gid="4493" x="160" y="480" width="32" height="32"/>
+  <object id="25" gid="4485" x="160" y="448" width="32" height="32"/>
+  <object id="26" gid="4486" x="192" y="448" width="32" height="32"/>
+  <object id="27" gid="4477" x="160" y="415.996" width="32" height="32"/>
+  <object id="28" gid="4478" x="192" y="416" width="32" height="32"/>
+  <object id="29" gid="4427" x="160" y="512" width="32" height="32"/>
+  <object id="32" gid="4340" x="480" y="320" width="32" height="32"/>
+  <object id="33" gid="4332" x="480" y="288" width="32" height="32"/>
+  <object id="34" gid="4324" x="480" y="256" width="32" height="32"/>
+  <object id="134" gid="3669" x="416" y="384" width="32" height="32"/>
+  <object id="135" gid="3669" x="352" y="384" width="32" height="32"/>
+  <object id="136" gid="3669" x="288" y="384" width="32" height="32"/>
+  <object id="138" gid="3669" x="224" y="384" width="32" height="32"/>
+  <object id="139" gid="3669" x="416" y="480" width="32" height="32"/>
+  <object id="140" gid="3669" x="352" y="480" width="32" height="32"/>
+  <object id="141" gid="3669" x="288" y="480" width="32" height="32"/>
+  <object id="142" gid="3669" x="224" y="480" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="5" name="Collisions">
+  <object id="126" x="117" y="289" width="10" height="222"/>
+  <object id="127" x="192.082" y="501" width="286.918" height="10"/>
+  <object id="128" x="480.684" y="321.223" width="10" height="189.613"/>
+  <object id="133" x="129" y="257" width="350" height="10"/>
+  <object id="143" x="159.657" y="511.022" width="29.8727" height="10"/>
+  <object id="144" x="132.944" y="499.135" width="29.8727" height="10"/>
+ </objectgroup>
+</map>

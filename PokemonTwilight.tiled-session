@@ -1,0 +1,200 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "data/maps/classroom.tmx",
+    "expandedProjectPaths": [
+        "Python-Monsters/data",
+        "Python-Monsters",
+        "data/maps",
+        "Python-Monsters/data/maps",
+        "data",
+        "data/tilesets",
+        "."
+    ],
+    "fileStates": {
+        "/Users/maximolopez/Downloads/world.tmx": {
+            "expandedObjectLayers": [
+                3
+            ],
+            "scale": 0.2759,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 3262.051467923161,
+                "y": 4668.358100761146
+            }
+        },
+        "/Users/maximolopez/tilesets/Grass.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/maximolopez/tilesets/objects.tsx": {
+            "scaleInDock": 1
+        },
+        "/Users/maximolopez/tilesets/world.tsx": {
+            "scaleInDock": 1
+        },
+        "data/maps/Forest Intro.tmx": {
+            "scale": 0.5374,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1404.9125418682547,
+                "y": 787.1231857089691
+            }
+        },
+        "data/maps/arena.tmx": {
+            "scale": 0.21174172794117646,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 769.8057514921323,
+                "y": 1088.5903418339665
+            }
+        },
+        "data/maps/classroom.tmx": {
+            "expandedObjectLayers": [
+                4,
+                5,
+                3
+            ],
+            "scale": 1.6962,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 190.1308807923594,
+                "y": 244.66454427543923
+            }
+        },
+        "data/maps/fire.tmx": {
+            "scale": 0.21174172794117646,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 769.8057514921323,
+                "y": 1088.5903418339665
+            }
+        },
+        "data/maps/forest intro.tmx": {
+            "scale": 0.5374,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1440.2679568291774,
+                "y": 788.9839970227019
+            }
+        },
+        "data/maps/forest_road.tmx": {
+            "expandedObjectLayers": [
+                10
+            ],
+            "scale": 0.6258,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1600.3515500159797,
+                "y": 3191.1153723234256
+            }
+        },
+        "data/maps/hospital.tmx": {
+            "scale": 0.5999348958333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 288.36462289744986,
+                "y": 384.20835594139993
+            }
+        },
+        "data/maps/hospital2.tmx": {
+            "scale": 0.5999348958333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 288.36462289744986,
+                "y": 384.20835594139993
+            }
+        },
+        "data/maps/plant.tmx": {
+            "scale": 0.21174172794117646,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 769.8057514921323,
+                "y": 1088.5903418339665
+            }
+        },
+        "data/maps/street n car.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 2.869
+        },
+        "data/maps/world.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3,
+                12
+            ],
+            "scale": 0.7816,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 2751.4073694984645,
+                "y": 2752.0470829068577
+            }
+        },
+        "data/tilesets/Grass.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "data/tilesets/forest road tileset 64x64.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.53
+        },
+        "data/tilesets/indoor.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "data/tilesets/interior.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.9498,
+            "scaleInEditor": 1
+        },
+        "data/tilesets/objects.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.1731,
+            "scaleInEditor": 0.1613
+        },
+        "data/tilesets/street n car sprite.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.2316,
+            "scaleInEditor": 0.9722
+        },
+        "data/tilesets/street n car.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "data/tilesets/street.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "data/tilesets/world.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.7793
+        }
+    },
+    "last.imagePath": "/Users/maximolopez/Desktop",
+    "map.fixedSize": false,
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "data/maps/classroom.tmx"
+    ],
+    "project": "PokemonTwilight.tiled-project",
+    "property.type": "string",
+    "recentFiles": [
+        "data/maps/classroom.tmx",
+        "data/maps/world.tmx",
+        "data/maps/forest_road.tmx",
+        "data/tilesets/interior.tsx",
+        "/Users/maximolopez/Downloads/world.tmx",
+        "data/maps/forest intro.tmx",
+        "data/maps/Forest Intro.tmx",
+        "data/tilesets/forest road tileset 64x64.tsx",
+        "data/tilesets/street n car sprite.tsx",
+        "data/maps/street n car.tsx",
+        "data/tilesets/objects.tsx",
+        "data/maps/fire.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

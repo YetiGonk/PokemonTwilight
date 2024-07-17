@@ -19,13 +19,17 @@ def import_folder(*path):
 	return frames
 
 def import_folder_dict(*path):
-	frames = {}
-	for folder_path, sub_folders, image_names in walk(join(*path)):
-		for image_name in image_names:
-			full_path = join(folder_path, image_name)
-			surf = pygame.image.load(full_path).convert_alpha()
-			frames[image_name.split('.')[0]] = surf
-	return frames
+    frames = {}
+    folder_path = join(*path)
+    for root, _, files in walk(folder_path):
+        for file in files:
+            file_path = join(root, file)
+            try:
+                surf = pygame.image.load(file_path).convert_alpha()
+                frames[file.rsplit('.', 1)[0].lower()] = surf
+            except pygame.error as e:
+                print(f"Error loading image {file_path}: {e}")
+    return frames
 
 def import_sub_folders(*path):
 	frames = {}
@@ -38,13 +42,38 @@ def import_sub_folders(*path):
 def import_tilemap(cols, rows, *path):
 	frames = {}
 	surf = import_image(*path)
-	cell_width, cell_height = surf.get_width() / cols, surf.get_height() / rows
+	cell_width, cell_height = surf.get_width() // cols, surf.get_height() // rows
 	for col in range(cols):
 		for row in range(rows):
-			cutout_rect = pygame.Rect(col * cell_width, row * cell_height,cell_width,cell_height)
-			cutout_surf = pygame.Surface((cell_width, cell_height))
-			cutout_surf.fill('green')
-			cutout_surf.set_colorkey('green')
-			cutout_surf.blit(surf, (0,0), cutout_rect)
+			cutout_rect = pygame.Rect(col * cell_width, row * cell_height, cell_width, cell_height)
+			cutout_surf = pygame.Surface((cell_width, cell_height), pygame.SRCALPHA)
+			cutout_surf.blit(surf, (0, 0), cutout_rect)
 			frames[(col, row)] = cutout_surf
 	return frames
+
+def character_importer(cols, rows, *path):
+    frame_dict = import_tilemap(cols, rows, *path)
+    new_dict = {}
+    for row, direction in enumerate(('up', 'down', 'left', 'right')):
+        new_dict[direction] = [pygame.transform.scale(frame_dict[(col, row)], (64, 64)) for col in range(cols)]
+        new_dict[f"{direction}_idle"] = [pygame.transform.scale(frame_dict[(0, row)], (64, 64))]
+    return new_dict
+
+def all_character_import(*path):
+    new_dict = {}
+    for _, __, image_names in walk(join(*path)):
+        for image in image_names:
+            image_name = image.split('.')[0]
+            new_dict[image_name] = character_importer(4, 4, *path, image_name)
+    return new_dict
+
+# game functions
+
+def check_connection(radius, entity, target, tolerance = 30):
+    relation = vector(target.rect.center) - vector(entity.rect.center)
+    if relation.length() < radius:
+        if entity.facing_direction == 'left' and relation.x < 0 and abs(relation.y) < tolerance or \
+            entity.facing_direction == 'right' and relation.x > 0 and abs(relation.y) < tolerance or \
+            entity.facing_direction == 'up' and relation.y < 0 and abs(relation.x) < tolerance or \
+            entity.facing_direction == 'down' and relation.y > 0 and abs(relation.x) < tolerance:
+        	return True
