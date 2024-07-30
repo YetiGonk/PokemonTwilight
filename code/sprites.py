@@ -34,4 +34,11 @@ class BorderSprite(Sprite):
 class CollidableSprite(Sprite):
     def __init__(self, pos, surf, groups):
         super().__init__(pos, surf, groups)
-        self.hitbox = self.rect.copy()
+        self.hitbox = self.rect.copy().inflate(0,-self.rect.height/2)
+        self.hitbox.centery -= self.rect.height/4
+
+class TransitionSprite(Sprite):
+    def __init__(self, pos, size, target, groups):
+        surf = pygame.Surface(size)
+        super().__init__(pos, surf, groups)
+        self.target = target

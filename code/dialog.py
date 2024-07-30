@@ -4,11 +4,13 @@ from timer import Timer
 
 class DialogTree:
     def __init__(self, all_sprites, font, display_surf, end_dialog, character=None, narration=None, non_character=None):
+        if character:
+            self.character = character
         self.all_sprites = all_sprites
         self.end_dialog = end_dialog
+
         self.font = font
         self.display_surf = display_surf
-
         if character:
             self.dialog = character.get_dialog()
             self.portrait = character.portrait
@@ -19,12 +21,12 @@ class DialogTree:
             self.portrait = non_character['portrait']
             self.dialog = non_character['dialog']
         else:
-            raise ValueError("Character nor narration nor non_character have been specified.")
+            raise ValueError("Character, narration or non_character have been specified.")
         self.dialog_num = len(self.dialog)
         self.dialog_index = 0
 
         self.current_dialog = DialogSprite(self.dialog[self.dialog_index], self.all_sprites, self.font, self.display_surf, portrait=self.portrait)
-        self.dialog_timer = Timer(5, autostart = True)
+        self.dialog_timer = Timer(100, autostart = True)
 
     def input(self):
         keys = pygame.key.get_just_pressed()
@@ -32,10 +34,13 @@ class DialogTree:
             self.current_dialog.kill()
             self.dialog_index += 1
             if self.dialog_index < self.dialog_num:
-                self.current_dialog = DialogSprite(self.dialog[self.dialog_index], self.all_sprites, self.font, self.display_surf, portrait = self.portrait)
+                self.current_dialog = DialogSprite(self.dialog[self.dialog_index], self.all_sprites, self.font, self.display_surf, portrait=self.portrait)
                 self.dialog_timer.activate()
-            else: 
-                self.end_dialog()
+            else:
+                if self.dialog[self.dialog_index-1] == "So don't rush it.":
+                    self.end_dialog(result = 'starter')
+                else:
+                    self.end_dialog()
 
     def update(self):
         self.dialog_timer.update()

@@ -10,11 +10,11 @@ BATTLE_OUTLINE_WIDTH = 4
 COLOURS = {
 	'white': '#f4fefa', 
 	'pure white': '#ffffff',
-	'dark': '#2b292c',
+	'dark-grey': '#2b292c',
 	'light': '#c8c8c8',
-	'gray': '#3a373b',
+	'grey': '#3a373b',
 	'gold': '#ffd700',
-	'light-gray': '#4b484d',
+	'light-grey': '#4b484d',
     'normal': '#A8A77A',
     'fire': '#EE8130',
     'water': '#6390F0',
@@ -35,7 +35,10 @@ COLOURS = {
     'fairy': '#D685AD',
 	'black': '#000000', 
 	'red': '#f03131',
-	'blue': '#66d7ee'
+	'blue': '#66d7ee',
+    'amber': '#ffBf00',
+    'green': '#6fc276',
+    'navy': '#0d47a1'
 }
 
 WORLD_LAYERS = {
@@ -60,22 +63,34 @@ BATTLE_LAYERS =  {
 }
 
 MAP_ORDER = {
-    'forest_road': {
+    'forest_road_intro': {
+        "map_name": 'forest_road',
+        "scene_type": 'cutscene',
+        "camera": 'track',
+        "player_pos": 'car'
+    },
+    'forest_road_dad': {
         "map_name": 'forest_road',
         "scene_type": 'cutscene',
         "camera": 'track',
         "player_pos": 'car'
     },
     'classroom_intro': {
-        "map_name": 'classroom',
+        "map_name": 'classroom_intro',
         "scene_type": 'cutscene',
         "camera": 'locked',
-        "player_pos": (0,0)
+        "player_pos": None
 	},
     'classroom': {
         "map_name": 'classroom',
         "scene_type": 'game',
-        "camera": 'player',
         "player_pos": 'seat'
-	}
+	},
+    'schoolyard': {
+        "map_name": 'schoolyard',
+        "scene_type": 'game',
+        "player_pos": 'entrance'
+    }
 }
+
+CUTSCENE_ORDER = ['title_intro', 'dad_intro', 'classroom']

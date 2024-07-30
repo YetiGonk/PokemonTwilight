@@ -6,7 +6,7 @@ from pytmx.util_pygame import load_pygame
 # imports 
 def import_image(*path, alpha = True, format = 'png'):
 	full_path = join(*path) + f'.{format}'
-	surf = pygame.image.load(full_path).convert_alpha() if alpha else pygame.image.load(full_path).convert()
+	surf = pygame.image.load(full_path).convert_alpha()
 	return surf
 
 def import_folder(*path):
@@ -77,3 +77,12 @@ def check_connection(radius, entity, target, tolerance = 30):
             entity.facing_direction == 'up' and relation.y < 0 and abs(relation.x) < tolerance or \
             entity.facing_direction == 'down' and relation.y > 0 and abs(relation.x) < tolerance:
         	return True
+    return False
+
+def draw_bar(surface, rect, value, max_value, colour, bg_colour, radius=1):
+    ratio = rect.width / max_value
+    bg_rect = rect.copy()
+    progress = max(0, min(rect.width, value * ratio))
+    progress_rect = pygame.FRect(rect.topleft, (progress, rect.height))
+    pygame.draw.rect(surface, bg_colour, bg_rect, 0, radius)
+    pygame.draw.rect(surface, colour, progress_rect, 0, radius)

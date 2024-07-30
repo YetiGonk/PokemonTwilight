@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="167">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="145">
  <tileset firstgid="1" source="../tilesets/interior.tsx"/>
  <layer id="1" name="Terrain" width="20" height="20">
   <data encoding="csv">
@@ -50,29 +50,20 @@
 </data>
  </layer>
  <objectgroup id="3" name="Entities">
-  <object id="4" name="Character" x="176" y="352">
-   <properties>
-    <property name="change_direction" type="bool" value="false"/>
-    <property name="character_id" value="professor 1"/>
-    <property name="direction" value="right"/>
-    <property name="graphic" value="drayden"/>
-    <property name="radius" type="int" value="0"/>
-   </properties>
-   <point/>
-  </object>
   <object id="13" name="Character" x="464" y="352">
    <properties>
     <property name="change_direction" type="bool" value="false"/>
-    <property name="character_id" value="collector classmate 1"/>
+    <property name="character_id" value="classmate 5"/>
     <property name="direction" value="left"/>
     <property name="graphic" value="collector"/>
-    <property name="radius" type="int" value="0"/>
+    <property name="radius" value="0"/>
    </properties>
    <point/>
   </object>
-  <object id="14" name="Player" x="464" y="448">
+  <object id="14" name="Character" x="464" y="448">
    <properties>
     <property name="direction" value="left"/>
+    <property name="graphic" value="hilda"/>
     <property name="pos" value="seat"/>
    </properties>
    <point/>
@@ -80,7 +71,7 @@
   <object id="16" name="Character" x="400" y="352">
    <properties>
     <property name="change_direction" type="bool" value="false"/>
-    <property name="character_id" value="lady classmate 1"/>
+    <property name="character_id" value="classmate 3"/>
     <property name="direction" value="left"/>
     <property name="graphic" value="lady"/>
     <property name="radius" type="int" value="0"/>
@@ -90,7 +81,7 @@
   <object id="19" name="Character" x="272" y="352">
    <properties>
     <property name="change_direction" type="bool" value="false"/>
-    <property name="character_id" value="cheren classmate 1"/>
+    <property name="character_id" value="classmate 1"/>
     <property name="direction" value="left"/>
     <property name="graphic" value="cheren"/>
     <property name="radius" type="int" value="0"/>
@@ -100,9 +91,9 @@
   <object id="21" name="Character" x="336" y="448">
    <properties>
     <property name="change_direction" type="bool" value="false"/>
-    <property name="character_id" value="edward 1"/>
+    <property name="character_id" value="classmate 4"/>
     <property name="direction" value="left"/>
-    <property name="graphic" value="edward"/>
+    <property name="graphic" value="rich boy"/>
     <property name="radius" type="int" value="0"/>
    </properties>
    <point/>
@@ -110,17 +101,10 @@
   <object id="22" name="Character" x="272" y="448">
    <properties>
     <property name="change_direction" type="bool" value="false"/>
-    <property name="character_id" value="lass classmate 1"/>
+    <property name="character_id" value="classmate 2"/>
     <property name="direction" value="left"/>
     <property name="graphic" value="lass"/>
     <property name="radius" type="int" value="0"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="166" name="Player" x="175.62" y="312.265">
-   <properties>
-    <property name="direction" value="down"/>
-    <property name="pos" value="door"/>
    </properties>
    <point/>
   </object>
@@ -146,23 +130,5 @@
   <object id="140" gid="3669" x="352" y="480" width="32" height="32"/>
   <object id="141" gid="3669" x="288" y="480" width="32" height="32"/>
   <object id="142" gid="3669" x="224" y="480" width="32" height="32"/>
- </objectgroup>
- <objectgroup id="5" name="Collisions">
-  <object id="126" x="117" y="276.377" width="10" height="234.623"/>
-  <object id="128" x="495.006" y="320.838" width="10" height="177.947"/>
-  <object id="144" x="127.854" y="500.178" width="382.817" height="10"/>
-  <object id="155" x="191.769" y="415.937" height="0.437828"/>
-  <object id="160" x="169.002" y="440.455" width="0.437828"/>
-  <object id="161" x="117.011" y="264.914" width="36.8749" height="9.51414"/>
-  <object id="162" x="481.825" y="248.594" width="29.1767" height="71.3561"/>
-  <object id="165" x="197.54" y="253.785" width="280.644" height="10"/>
- </objectgroup>
- <objectgroup id="6" name="Transitions">
-  <object id="164" x="158.514" y="257.023" width="34.2857" height="4.51128">
-   <properties>
-    <property name="pos" value="entrance"/>
-    <property name="target" value="schoolyard"/>
-   </properties>
-  </object>
  </objectgroup>
 </map>
