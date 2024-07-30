@@ -3,16 +3,23 @@ from os.path import join
 from timer import Timer
 
 class DialogTree:
-    def __init__(self, character, player, all_sprites, font, display_surf, end_dialog):
-        self.player = player
-        self.character = character
+    def __init__(self, all_sprites, font, display_surf, end_dialog, character=None, narration=None, non_character=None):
         self.all_sprites = all_sprites
         self.end_dialog = end_dialog
-
         self.font = font
         self.display_surf = display_surf
-        self.dialog = character.get_dialog()
-        self.portrait = character.portrait
+
+        if character:
+            self.dialog = character.get_dialog()
+            self.portrait = character.portrait
+        elif narration:
+            self.dialog = narration
+            self.portrait = None
+        elif non_character:
+            self.portrait = non_character['portrait']
+            self.dialog = non_character['dialog']
+        else:
+            raise ValueError("Character nor narration nor non_character have been specified.")
         self.dialog_num = len(self.dialog)
         self.dialog_index = 0
 
@@ -28,7 +35,7 @@ class DialogTree:
                 self.current_dialog = DialogSprite(self.dialog[self.dialog_index], self.all_sprites, self.font, self.display_surf, portrait = self.portrait)
                 self.dialog_timer.activate()
             else: 
-                self.end_dialog(self.character)
+                self.end_dialog()
 
     def update(self):
         self.dialog_timer.update()
@@ -40,14 +47,16 @@ class DialogSprite(pygame.sprite.Sprite):
         self.z = WORLD_LAYERS['top']
         self.display_surf = display_surf
 
+        self.portrait = portrait
+
         self.text_box_surf = pygame.image.load(join('..', 'graphics', 'other', 'text box.png'))
 
         # Scale portrait
-        if portrait:
+        if self.portrait:
             scale_factor = 8
-            portrait_width = int(portrait.get_width() * scale_factor)
-            portrait_height = int(portrait.get_height() * scale_factor)
-            self.portrait_image = pygame.transform.scale(portrait, (portrait_width, portrait_height))
+            portrait_width = int(self.portrait.get_width() * scale_factor)
+            portrait_height = int(self.portrait.get_height() * scale_factor)
+            self.portrait_image = pygame.transform.scale(self.portrait, (portrait_width, portrait_height))
 
         # Scale text box
         scale_factor = 0.95
@@ -74,4 +83,5 @@ class DialogSprite(pygame.sprite.Sprite):
     def draw(self):
         # Display portrait and text on screen
         self.display_surf.blit(self.text_image, self.text_rect)
-        self.display_surf.blit(self.portrait_image, self.portrait_rect)
+        if self.portrait:
+            self.display_surf.blit(self.portrait_image, self.portrait_rect)

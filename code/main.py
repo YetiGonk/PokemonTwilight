@@ -21,7 +21,7 @@ class Game:
         self.fade_screen.fill(COLOURS['white'])
         self.fade_alpha = 255
         self.fade('in')
-        
+
         self.player_gender = 'hilda'
 
         # groups
@@ -33,7 +33,8 @@ class Game:
 
         self.import_assets()
         self.start_story()
-        #self.cutscene = TitleIntro(self.all_sprites, self.display_surface, self.fonts['dialog'])
+        self.cutscene = TitleIntro(self.all_sprites, self.display_surface, self.fonts['dialog'], dad_obj={'portrait': self.portraits['characters']['dad'], 'dialog': TRAINER_DATA['dad intro']}, game=self)
+
 
     def fade(self, direction, speed=5):
         if direction == 'in':
@@ -49,7 +50,7 @@ class Game:
         self.fade_screen.set_alpha(self.fade_alpha)
 
     def start_story(self):
-        self.scene = MAP_ORDER['classroom']
+        self.scene = MAP_ORDER['forest_road']
         self.load_setup(self.scene['player_pos'])
 
     def load_setup(self, player_pos):
@@ -150,15 +151,24 @@ class Game:
                     if check_connection(48, self.player, character):
                         self.player.block()
                         character.change_facing_direction(self.player.rect.center)
-                        self.create_dialog(character)
+                        self.create_dialog(character=character)
 
-    def create_dialog(self, character):
+    def create_dialog(self, character=None, narration=None, non_character=None):
         if not self.dialog_tree:
-            self.dialog_tree = DialogTree(character, self.player, self.all_sprites, self.fonts['dialog'], self.display_surface, self.end_dialog)
+            if character:
+                self.dialog_tree = DialogTree(self.all_sprites, self.fonts['dialog'], self.display_surface, self.end_dialog, character=character)
+            elif narration:
+                self.dialog_tree = DialogTree(self.all_sprites, self.fonts['dialog'], self.display_surface, self.end_dialog, narration=narration)
+            elif non_character:
+                self.dialog_tree = DialogTree(self.all_sprites, self.fonts['dialog'], self.display_surface, self.end_dialog, non_character=non_character)
+            else:
+                raise ValueError("Neither character nor narration has been specified.")
 
-    def end_dialog(self, character):
+
+    def end_dialog(self):
         self.dialog_tree = None
-        self.player.unblock()
+        if self.player:
+            self.player.unblock()
 
     def draw_dialog(self):
         for sprite in self.all_sprites:

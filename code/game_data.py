@@ -1,6 +1,12 @@
 TRAINER_DATA = {
-    'dad forest road': {
-        'dialog': ["", ""]
+    'dad intro': {
+        'pokemon': None,
+        'dialog': {
+            'default': ["Almost there, champ!", "You feeling ok back there?"]
+        },
+        'directions': None,
+        'look_around': None,
+        'defeated': None,
         },
     'classmate 1': {
         'pokemon': {0: ('Budew', 5)},
