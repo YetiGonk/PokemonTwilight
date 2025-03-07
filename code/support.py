@@ -84,5 +84,6 @@ def draw_bar(surface, rect, value, max_value, colour, bg_colour, radius=1):
     bg_rect = rect.copy()
     progress = max(0, min(rect.width, value * ratio))
     progress_rect = pygame.FRect(rect.topleft, (progress, rect.height))
-    pygame.draw.rect(surface, bg_colour, bg_rect, 0, radius)
+    if bg_colour:
+        pygame.draw.rect(surface, bg_colour, bg_rect, 0, radius)
     pygame.draw.rect(surface, colour, progress_rect, 0, radius)

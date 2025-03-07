@@ -4,6 +4,7 @@ MOVE_DATA = {
         "id": 24,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 30,
         "type": "fighting",
         "damage_class": "physical",
@@ -38,6 +39,7 @@ MOVE_DATA = {
         "id": 26,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 10,
         "power": 100,
         "type": "fighting",
         "damage_class": "physical",
@@ -72,6 +74,7 @@ MOVE_DATA = {
         "id": 28,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "ground",
         "damage_class": "status",
@@ -114,6 +117,7 @@ MOVE_DATA = {
         "id": 29,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -148,6 +152,7 @@ MOVE_DATA = {
         "id": 33,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 40,
         "type": "normal",
         "damage_class": "physical",
@@ -182,6 +187,7 @@ MOVE_DATA = {
         "id": 34,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 85,
         "type": "normal",
         "damage_class": "physical",
@@ -216,6 +222,7 @@ MOVE_DATA = {
         "id": 36,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 20,
         "power": 90,
         "type": "normal",
         "damage_class": "physical",
@@ -250,6 +257,7 @@ MOVE_DATA = {
         "id": 38,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 120,
         "type": "normal",
         "damage_class": "physical",
@@ -284,6 +292,7 @@ MOVE_DATA = {
         "id": 45,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -291,7 +300,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -326,6 +335,7 @@ MOVE_DATA = {
         "id": 73,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -360,6 +370,7 @@ MOVE_DATA = {
         "id": 76,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "grass",
         "damage_class": "special",
@@ -394,6 +405,7 @@ MOVE_DATA = {
         "id": 86,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -428,6 +440,7 @@ MOVE_DATA = {
         "id": 91,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "ground",
         "damage_class": "physical",
@@ -462,6 +475,7 @@ MOVE_DATA = {
         "id": 92,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -496,6 +510,7 @@ MOVE_DATA = {
         "id": 97,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -503,7 +518,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -538,6 +553,7 @@ MOVE_DATA = {
         "id": 104,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -580,6 +596,7 @@ MOVE_DATA = {
         "id": 113,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -614,6 +631,7 @@ MOVE_DATA = {
         "id": 148,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -656,6 +674,7 @@ MOVE_DATA = {
         "id": 156,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -690,6 +709,7 @@ MOVE_DATA = {
         "id": 164,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -724,6 +744,7 @@ MOVE_DATA = {
         "id": 173,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 50,
         "type": "normal",
         "damage_class": "special",
@@ -758,6 +779,7 @@ MOVE_DATA = {
         "id": 182,
         "accuracy": None,
         "priority": 4,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -792,6 +814,7 @@ MOVE_DATA = {
         "id": 185,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "dark",
         "damage_class": "physical",
@@ -826,6 +849,7 @@ MOVE_DATA = {
         "id": 202,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "grass",
         "damage_class": "special",
@@ -860,6 +884,7 @@ MOVE_DATA = {
         "id": 203,
         "accuracy": None,
         "priority": 4,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -894,6 +919,7 @@ MOVE_DATA = {
         "id": 204,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -901,7 +927,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -936,6 +962,7 @@ MOVE_DATA = {
         "id": 207,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -943,7 +970,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -978,6 +1005,7 @@ MOVE_DATA = {
         "id": 213,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1012,6 +1040,7 @@ MOVE_DATA = {
         "id": 214,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1046,6 +1075,7 @@ MOVE_DATA = {
         "id": 216,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -1080,6 +1110,7 @@ MOVE_DATA = {
         "id": 218,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -1114,6 +1145,7 @@ MOVE_DATA = {
         "id": 219,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 25,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1148,6 +1180,7 @@ MOVE_DATA = {
         "id": 226,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1182,6 +1215,7 @@ MOVE_DATA = {
         "id": 235,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -1216,6 +1250,7 @@ MOVE_DATA = {
         "id": 237,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 60,
         "type": "normal",
         "damage_class": "special",
@@ -1250,6 +1285,7 @@ MOVE_DATA = {
         "id": 240,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "water",
         "damage_class": "status",
@@ -1284,6 +1320,7 @@ MOVE_DATA = {
         "id": 241,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "fire",
         "damage_class": "status",
@@ -1318,6 +1355,7 @@ MOVE_DATA = {
         "id": 247,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "ghost",
         "damage_class": "special",
@@ -1325,7 +1363,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -1360,6 +1398,7 @@ MOVE_DATA = {
         "id": 263,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -1394,6 +1433,7 @@ MOVE_DATA = {
         "id": 267,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1428,6 +1468,7 @@ MOVE_DATA = {
         "id": 270,
         "accuracy": None,
         "priority": 5,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1462,6 +1503,7 @@ MOVE_DATA = {
         "id": 283,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -1496,6 +1538,7 @@ MOVE_DATA = {
         "id": 290,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -1530,6 +1573,7 @@ MOVE_DATA = {
         "id": 293,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1564,6 +1608,7 @@ MOVE_DATA = {
         "id": 312,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -1598,6 +1643,7 @@ MOVE_DATA = {
         "id": 313,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -1605,7 +1651,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -1640,6 +1686,7 @@ MOVE_DATA = {
         "id": 316,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -1674,6 +1721,7 @@ MOVE_DATA = {
         "id": 320,
         "accuracy": 55,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -1708,6 +1756,7 @@ MOVE_DATA = {
         "id": 331,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 25,
         "type": "grass",
         "damage_class": "physical",
@@ -1742,6 +1791,7 @@ MOVE_DATA = {
         "id": 340,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 5,
         "power": 85,
         "type": "flying",
         "damage_class": "physical",
@@ -1776,6 +1826,7 @@ MOVE_DATA = {
         "id": 345,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "grass",
         "damage_class": "special",
@@ -1810,6 +1861,7 @@ MOVE_DATA = {
         "id": 363,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -1844,6 +1896,7 @@ MOVE_DATA = {
         "id": 387,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 140,
         "type": "normal",
         "damage_class": "physical",
@@ -1878,6 +1931,7 @@ MOVE_DATA = {
         "id": 388,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -1912,6 +1966,7 @@ MOVE_DATA = {
         "id": 402,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "grass",
         "damage_class": "physical",
@@ -1946,6 +2001,7 @@ MOVE_DATA = {
         "id": 412,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "grass",
         "damage_class": "special",
@@ -1953,7 +2009,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -1988,6 +2044,7 @@ MOVE_DATA = {
         "id": 428,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "psychic",
         "damage_class": "physical",
@@ -2022,6 +2079,7 @@ MOVE_DATA = {
         "id": 437,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 130,
         "type": "grass",
         "damage_class": "special",
@@ -2029,7 +2087,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -2064,6 +2122,7 @@ MOVE_DATA = {
         "id": 447,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "grass",
         "damage_class": "special",
@@ -2098,6 +2157,7 @@ MOVE_DATA = {
         "id": 496,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 60,
         "type": "normal",
         "damage_class": "special",
@@ -2132,6 +2192,7 @@ MOVE_DATA = {
         "id": 497,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 40,
         "type": "normal",
         "damage_class": "special",
@@ -2166,6 +2227,7 @@ MOVE_DATA = {
         "id": 514,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -2200,6 +2262,7 @@ MOVE_DATA = {
         "id": 523,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "ground",
         "damage_class": "physical",
@@ -2207,7 +2270,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -2242,6 +2305,7 @@ MOVE_DATA = {
         "id": 526,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -2249,14 +2313,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -2291,6 +2355,7 @@ MOVE_DATA = {
         "id": 528,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "electric",
         "damage_class": "physical",
@@ -2325,6 +2390,7 @@ MOVE_DATA = {
         "id": 580,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -2359,6 +2425,7 @@ MOVE_DATA = {
         "id": 583,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "fairy",
         "damage_class": "physical",
@@ -2366,7 +2433,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -2401,6 +2468,7 @@ MOVE_DATA = {
         "id": 590,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -2408,7 +2476,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -2443,6 +2511,7 @@ MOVE_DATA = {
         "id": 803,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 55,
         "type": "grass",
         "damage_class": "physical",
@@ -2477,6 +2546,7 @@ MOVE_DATA = {
         "id": 851,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "normal",
         "damage_class": "special",
@@ -2490,6 +2560,7 @@ MOVE_DATA = {
         "id": 885,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 50,
         "type": "grass",
         "damage_class": "physical",
@@ -2503,6 +2574,7 @@ MOVE_DATA = {
         "id": 14,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -2510,7 +2582,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -2545,6 +2617,7 @@ MOVE_DATA = {
         "id": 15,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 30,
         "power": 50,
         "type": "normal",
         "damage_class": "physical",
@@ -2579,6 +2652,7 @@ MOVE_DATA = {
         "id": 63,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 150,
         "type": "normal",
         "damage_class": "special",
@@ -2613,6 +2687,7 @@ MOVE_DATA = {
         "id": 174,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "ghost",
         "damage_class": "status",
@@ -2647,6 +2722,7 @@ MOVE_DATA = {
         "id": 224,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "bug",
         "damage_class": "physical",
@@ -2681,6 +2757,7 @@ MOVE_DATA = {
         "id": 249,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 40,
         "type": "fighting",
         "damage_class": "physical",
@@ -2688,7 +2765,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -2723,6 +2800,7 @@ MOVE_DATA = {
         "id": 416,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 150,
         "type": "normal",
         "damage_class": "physical",
@@ -2757,6 +2835,7 @@ MOVE_DATA = {
         "id": 532,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "grass",
         "damage_class": "physical",
@@ -2791,6 +2870,7 @@ MOVE_DATA = {
         "id": 572,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "grass",
         "damage_class": "physical",
@@ -2825,6 +2905,7 @@ MOVE_DATA = {
         "id": 667,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 10,
         "power": 95,
         "type": "ground",
         "damage_class": "physical",
@@ -2859,6 +2940,7 @@ MOVE_DATA = {
         "id": 675,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "dark",
         "damage_class": "physical",
@@ -2893,6 +2975,7 @@ MOVE_DATA = {
         "id": 684,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": 70,
         "type": "steel",
         "damage_class": "physical",
@@ -2927,6 +3010,7 @@ MOVE_DATA = {
         "id": 707,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "ground",
         "damage_class": "physical",
@@ -2961,6 +3045,7 @@ MOVE_DATA = {
         "id": 9,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 75,
         "type": "electric",
         "damage_class": "physical",
@@ -2995,6 +3080,7 @@ MOVE_DATA = {
         "id": 39,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -3002,7 +3088,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -3037,6 +3123,7 @@ MOVE_DATA = {
         "id": 44,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 60,
         "type": "dark",
         "damage_class": "physical",
@@ -3071,6 +3158,7 @@ MOVE_DATA = {
         "id": 84,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 40,
         "type": "electric",
         "damage_class": "special",
@@ -3105,6 +3193,7 @@ MOVE_DATA = {
         "id": 85,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "electric",
         "damage_class": "special",
@@ -3139,6 +3228,7 @@ MOVE_DATA = {
         "id": 87,
         "accuracy": 70,
         "priority": 0,
+        "max_pp": 10,
         "power": 110,
         "type": "electric",
         "damage_class": "special",
@@ -3173,6 +3263,7 @@ MOVE_DATA = {
         "id": 98,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": 40,
         "type": "normal",
         "damage_class": "physical",
@@ -3207,6 +3298,7 @@ MOVE_DATA = {
         "id": 111,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -3214,7 +3306,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -3249,6 +3341,7 @@ MOVE_DATA = {
         "id": 117,
         "accuracy": None,
         "priority": 1,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -3283,6 +3376,7 @@ MOVE_DATA = {
         "id": 129,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "normal",
         "damage_class": "special",
@@ -3317,6 +3411,7 @@ MOVE_DATA = {
         "id": 158,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "normal",
         "damage_class": "physical",
@@ -3351,6 +3446,7 @@ MOVE_DATA = {
         "id": 162,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -3385,6 +3481,7 @@ MOVE_DATA = {
         "id": 168,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 60,
         "type": "dark",
         "damage_class": "physical",
@@ -3419,6 +3516,7 @@ MOVE_DATA = {
         "id": 175,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -3453,6 +3551,7 @@ MOVE_DATA = {
         "id": 186,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -3487,6 +3586,7 @@ MOVE_DATA = {
         "id": 189,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 20,
         "type": "ground",
         "damage_class": "special",
@@ -3529,6 +3629,7 @@ MOVE_DATA = {
         "id": 205,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 20,
         "power": 30,
         "type": "rock",
         "damage_class": "physical",
@@ -3563,6 +3664,7 @@ MOVE_DATA = {
         "id": 209,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "electric",
         "damage_class": "physical",
@@ -3597,6 +3699,7 @@ MOVE_DATA = {
         "id": 227,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -3631,6 +3734,7 @@ MOVE_DATA = {
         "id": 231,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 15,
         "power": 100,
         "type": "steel",
         "damage_class": "physical",
@@ -3638,7 +3742,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -3673,6 +3777,7 @@ MOVE_DATA = {
         "id": 253,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "normal",
         "damage_class": "special",
@@ -3707,6 +3812,7 @@ MOVE_DATA = {
         "id": 260,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -3714,7 +3820,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -3749,6 +3855,7 @@ MOVE_DATA = {
         "id": 266,
         "accuracy": None,
         "priority": 2,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -3783,6 +3890,7 @@ MOVE_DATA = {
         "id": 268,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -3790,7 +3898,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -3825,6 +3933,7 @@ MOVE_DATA = {
         "id": 332,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "flying",
         "damage_class": "physical",
@@ -3859,6 +3968,7 @@ MOVE_DATA = {
         "id": 341,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 55,
         "type": "ground",
         "damage_class": "special",
@@ -3866,7 +3976,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -3901,6 +4011,7 @@ MOVE_DATA = {
         "id": 343,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 60,
         "type": "normal",
         "damage_class": "physical",
@@ -3935,6 +4046,7 @@ MOVE_DATA = {
         "id": 351,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "electric",
         "damage_class": "special",
@@ -3969,6 +4081,7 @@ MOVE_DATA = {
         "id": 369,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "bug",
         "damage_class": "physical",
@@ -4003,6 +4116,7 @@ MOVE_DATA = {
         "id": 374,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "dark",
         "damage_class": "physical",
@@ -4037,6 +4151,7 @@ MOVE_DATA = {
         "id": 393,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -4071,6 +4186,7 @@ MOVE_DATA = {
         "id": 422,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 65,
         "type": "electric",
         "damage_class": "physical",
@@ -4105,6 +4221,7 @@ MOVE_DATA = {
         "id": 435,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "electric",
         "damage_class": "special",
@@ -4139,6 +4256,7 @@ MOVE_DATA = {
         "id": 441,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "poison",
         "damage_class": "physical",
@@ -4173,6 +4291,7 @@ MOVE_DATA = {
         "id": 445,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -4180,7 +4299,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -4215,6 +4334,7 @@ MOVE_DATA = {
         "id": 451,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 50,
         "type": "electric",
         "damage_class": "special",
@@ -4222,7 +4342,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -4257,6 +4377,7 @@ MOVE_DATA = {
         "id": 486,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "electric",
         "damage_class": "special",
@@ -4291,6 +4412,7 @@ MOVE_DATA = {
         "id": 516,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -4325,6 +4447,7 @@ MOVE_DATA = {
         "id": 521,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "electric",
         "damage_class": "special",
@@ -4359,6 +4482,7 @@ MOVE_DATA = {
         "id": 527,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 55,
         "type": "electric",
         "damage_class": "special",
@@ -4366,7 +4490,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -4401,6 +4525,7 @@ MOVE_DATA = {
         "id": 569,
         "accuracy": None,
         "priority": 1,
+        "max_pp": 25,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -4435,6 +4560,7 @@ MOVE_DATA = {
         "id": 598,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -4442,7 +4568,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -4477,6 +4603,7 @@ MOVE_DATA = {
         "id": 604,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -4511,6 +4638,7 @@ MOVE_DATA = {
         "id": 608,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -4518,7 +4646,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -4553,6 +4681,7 @@ MOVE_DATA = {
         "id": 609,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 20,
         "type": "electric",
         "damage_class": "physical",
@@ -4587,6 +4716,7 @@ MOVE_DATA = {
         "id": 673,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -4621,6 +4751,7 @@ MOVE_DATA = {
         "id": 914,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "fairy",
         "damage_class": "special",
@@ -4634,6 +4765,7 @@ MOVE_DATA = {
         "id": 5,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "normal",
         "damage_class": "physical",
@@ -4668,6 +4800,7 @@ MOVE_DATA = {
         "id": 7,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 75,
         "type": "fire",
         "damage_class": "physical",
@@ -4702,6 +4835,7 @@ MOVE_DATA = {
         "id": 8,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 75,
         "type": "ice",
         "damage_class": "physical",
@@ -4736,6 +4870,7 @@ MOVE_DATA = {
         "id": 10,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 40,
         "type": "normal",
         "damage_class": "physical",
@@ -4770,6 +4905,7 @@ MOVE_DATA = {
         "id": 25,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "normal",
         "damage_class": "physical",
@@ -4804,6 +4940,7 @@ MOVE_DATA = {
         "id": 37,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "normal",
         "damage_class": "physical",
@@ -4838,6 +4975,7 @@ MOVE_DATA = {
         "id": 43,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -4845,7 +4983,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -4880,6 +5018,7 @@ MOVE_DATA = {
         "id": 46,
         "accuracy": None,
         "priority": -6,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -4914,6 +5053,7 @@ MOVE_DATA = {
         "id": 67,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "fighting",
         "damage_class": "physical",
@@ -4948,6 +5088,7 @@ MOVE_DATA = {
         "id": 68,
         "accuracy": 100,
         "priority": -5,
+        "max_pp": 20,
         "power": None,
         "type": "fighting",
         "damage_class": "physical",
@@ -4982,6 +5123,7 @@ MOVE_DATA = {
         "id": 69,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "fighting",
         "damage_class": "physical",
@@ -5016,6 +5158,7 @@ MOVE_DATA = {
         "id": 70,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "normal",
         "damage_class": "physical",
@@ -5050,6 +5193,7 @@ MOVE_DATA = {
         "id": 89,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 100,
         "type": "ground",
         "damage_class": "physical",
@@ -5084,6 +5228,7 @@ MOVE_DATA = {
         "id": 102,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -5118,6 +5263,7 @@ MOVE_DATA = {
         "id": 116,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -5152,6 +5298,7 @@ MOVE_DATA = {
         "id": 118,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -5186,6 +5333,7 @@ MOVE_DATA = {
         "id": 122,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 30,
         "type": "ghost",
         "damage_class": "physical",
@@ -5220,6 +5368,7 @@ MOVE_DATA = {
         "id": 154,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 15,
         "power": 18,
         "type": "normal",
         "damage_class": "physical",
@@ -5254,6 +5403,7 @@ MOVE_DATA = {
         "id": 157,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "rock",
         "damage_class": "physical",
@@ -5288,6 +5438,7 @@ MOVE_DATA = {
         "id": 163,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -5322,6 +5473,7 @@ MOVE_DATA = {
         "id": 187,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -5356,6 +5508,7 @@ MOVE_DATA = {
         "id": 192,
         "accuracy": 50,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "electric",
         "damage_class": "special",
@@ -5390,6 +5543,7 @@ MOVE_DATA = {
         "id": 210,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 20,
         "power": 40,
         "type": "bug",
         "damage_class": "physical",
@@ -5424,6 +5578,7 @@ MOVE_DATA = {
         "id": 223,
         "accuracy": 50,
         "priority": 0,
+        "max_pp": 5,
         "power": 100,
         "type": "fighting",
         "damage_class": "physical",
@@ -5458,6 +5613,7 @@ MOVE_DATA = {
         "id": 230,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -5500,6 +5656,7 @@ MOVE_DATA = {
         "id": 232,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 35,
         "power": 50,
         "type": "steel",
         "damage_class": "physical",
@@ -5507,7 +5664,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -5542,6 +5699,7 @@ MOVE_DATA = {
         "id": 238,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 5,
         "power": 100,
         "type": "fighting",
         "damage_class": "physical",
@@ -5576,6 +5734,7 @@ MOVE_DATA = {
         "id": 242,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "dark",
         "damage_class": "physical",
@@ -5583,7 +5742,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -5618,6 +5777,7 @@ MOVE_DATA = {
         "id": 259,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -5652,6 +5812,7 @@ MOVE_DATA = {
         "id": 264,
         "accuracy": 100,
         "priority": -3,
+        "max_pp": 20,
         "power": 150,
         "type": "fighting",
         "damage_class": "physical",
@@ -5686,6 +5847,7 @@ MOVE_DATA = {
         "id": 269,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -5720,6 +5882,7 @@ MOVE_DATA = {
         "id": 276,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "fighting",
         "damage_class": "physical",
@@ -5727,14 +5890,14 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -5769,6 +5932,7 @@ MOVE_DATA = {
         "id": 280,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 75,
         "type": "fighting",
         "damage_class": "physical",
@@ -5803,6 +5967,7 @@ MOVE_DATA = {
         "id": 281,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -5837,6 +6002,7 @@ MOVE_DATA = {
         "id": 304,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "normal",
         "damage_class": "special",
@@ -5871,6 +6037,7 @@ MOVE_DATA = {
         "id": 317,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 60,
         "type": "rock",
         "damage_class": "physical",
@@ -5878,7 +6045,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -5913,6 +6080,7 @@ MOVE_DATA = {
         "id": 339,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "fighting",
         "damage_class": "status",
@@ -5920,14 +6088,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -5962,6 +6130,7 @@ MOVE_DATA = {
         "id": 370,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "fighting",
         "damage_class": "physical",
@@ -5969,14 +6138,14 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -6011,6 +6180,7 @@ MOVE_DATA = {
         "id": 371,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 50,
         "type": "dark",
         "damage_class": "physical",
@@ -6045,6 +6215,7 @@ MOVE_DATA = {
         "id": 400,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 70,
         "type": "dark",
         "damage_class": "physical",
@@ -6079,6 +6250,7 @@ MOVE_DATA = {
         "id": 419,
         "accuracy": 100,
         "priority": -4,
+        "max_pp": 10,
         "power": 60,
         "type": "ice",
         "damage_class": "physical",
@@ -6113,6 +6285,7 @@ MOVE_DATA = {
         "id": 421,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 70,
         "type": "ghost",
         "damage_class": "physical",
@@ -6147,6 +6320,7 @@ MOVE_DATA = {
         "id": 468,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -6154,7 +6328,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
@@ -6196,6 +6370,7 @@ MOVE_DATA = {
         "id": 479,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 50,
         "type": "rock",
         "damage_class": "physical",
@@ -6230,6 +6405,7 @@ MOVE_DATA = {
         "id": 498,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -6264,6 +6440,7 @@ MOVE_DATA = {
         "id": 589,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -6271,7 +6448,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -6306,6 +6483,7 @@ MOVE_DATA = {
         "id": 612,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 40,
         "type": "fighting",
         "damage_class": "physical",
@@ -6313,7 +6491,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -6348,6 +6526,7 @@ MOVE_DATA = {
         "id": 184,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -6355,7 +6534,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -6390,6 +6569,7 @@ MOVE_DATA = {
         "id": 359,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 100,
         "type": "fighting",
         "damage_class": "physical",
@@ -6397,7 +6577,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -6432,6 +6612,7 @@ MOVE_DATA = {
         "id": 411,
         "accuracy": 70,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "fighting",
         "damage_class": "special",
@@ -6439,7 +6620,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -6474,6 +6655,7 @@ MOVE_DATA = {
         "id": 431,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 20,
         "power": 90,
         "type": "normal",
         "damage_class": "physical",
@@ -6508,6 +6690,7 @@ MOVE_DATA = {
         "id": 444,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 5,
         "power": 100,
         "type": "rock",
         "damage_class": "physical",
@@ -6542,6 +6725,7 @@ MOVE_DATA = {
         "id": 16,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 40,
         "type": "flying",
         "damage_class": "special",
@@ -6576,6 +6760,7 @@ MOVE_DATA = {
         "id": 17,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 60,
         "type": "flying",
         "damage_class": "physical",
@@ -6610,6 +6795,7 @@ MOVE_DATA = {
         "id": 19,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "flying",
         "damage_class": "physical",
@@ -6644,6 +6830,7 @@ MOVE_DATA = {
         "id": 48,
         "accuracy": 55,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -6678,6 +6865,7 @@ MOVE_DATA = {
         "id": 54,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "ice",
         "damage_class": "status",
@@ -6712,6 +6900,7 @@ MOVE_DATA = {
         "id": 55,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 40,
         "type": "water",
         "damage_class": "special",
@@ -6746,6 +6935,7 @@ MOVE_DATA = {
         "id": 56,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 5,
         "power": 110,
         "type": "water",
         "damage_class": "special",
@@ -6780,6 +6970,7 @@ MOVE_DATA = {
         "id": 57,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "water",
         "damage_class": "special",
@@ -6814,6 +7005,7 @@ MOVE_DATA = {
         "id": 58,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "ice",
         "damage_class": "special",
@@ -6848,6 +7040,7 @@ MOVE_DATA = {
         "id": 59,
         "accuracy": 70,
         "priority": 0,
+        "max_pp": 5,
         "power": 110,
         "type": "ice",
         "damage_class": "special",
@@ -6882,6 +7075,7 @@ MOVE_DATA = {
         "id": 127,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "water",
         "damage_class": "physical",
@@ -6916,6 +7110,7 @@ MOVE_DATA = {
         "id": 143,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 140,
         "type": "flying",
         "damage_class": "physical",
@@ -6950,6 +7145,7 @@ MOVE_DATA = {
         "id": 196,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 55,
         "type": "ice",
         "damage_class": "special",
@@ -6957,7 +7153,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -6992,6 +7188,7 @@ MOVE_DATA = {
         "id": 211,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 25,
         "power": 70,
         "type": "steel",
         "damage_class": "physical",
@@ -6999,7 +7196,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -7034,6 +7231,7 @@ MOVE_DATA = {
         "id": 228,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 40,
         "type": "dark",
         "damage_class": "physical",
@@ -7068,6 +7266,7 @@ MOVE_DATA = {
         "id": 239,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 40,
         "type": "dragon",
         "damage_class": "special",
@@ -7102,6 +7301,7 @@ MOVE_DATA = {
         "id": 250,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 15,
         "power": 35,
         "type": "water",
         "damage_class": "special",
@@ -7136,6 +7336,7 @@ MOVE_DATA = {
         "id": 258,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "ice",
         "damage_class": "status",
@@ -7170,6 +7371,7 @@ MOVE_DATA = {
         "id": 282,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "dark",
         "damage_class": "physical",
@@ -7204,6 +7406,7 @@ MOVE_DATA = {
         "id": 297,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "flying",
         "damage_class": "status",
@@ -7211,7 +7414,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -7246,6 +7449,7 @@ MOVE_DATA = {
         "id": 314,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 25,
         "power": 60,
         "type": "flying",
         "damage_class": "special",
@@ -7280,6 +7484,7 @@ MOVE_DATA = {
         "id": 330,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "water",
         "damage_class": "special",
@@ -7322,6 +7527,7 @@ MOVE_DATA = {
         "id": 346,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "water",
         "damage_class": "status",
@@ -7356,6 +7562,7 @@ MOVE_DATA = {
         "id": 352,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "water",
         "damage_class": "special",
@@ -7390,6 +7597,7 @@ MOVE_DATA = {
         "id": 355,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "flying",
         "damage_class": "status",
@@ -7424,6 +7632,7 @@ MOVE_DATA = {
         "id": 362,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 65,
         "type": "water",
         "damage_class": "special",
@@ -7458,6 +7667,7 @@ MOVE_DATA = {
         "id": 365,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "flying",
         "damage_class": "physical",
@@ -7492,6 +7702,7 @@ MOVE_DATA = {
         "id": 366,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "flying",
         "damage_class": "status",
@@ -7526,6 +7737,7 @@ MOVE_DATA = {
         "id": 392,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "water",
         "damage_class": "status",
@@ -7560,6 +7772,7 @@ MOVE_DATA = {
         "id": 403,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 75,
         "type": "flying",
         "damage_class": "special",
@@ -7594,6 +7807,7 @@ MOVE_DATA = {
         "id": 413,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 120,
         "type": "flying",
         "damage_class": "physical",
@@ -7628,6 +7842,7 @@ MOVE_DATA = {
         "id": 432,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "flying",
         "damage_class": "status",
@@ -7670,6 +7885,7 @@ MOVE_DATA = {
         "id": 466,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 60,
         "type": "ghost",
         "damage_class": "special",
@@ -7677,35 +7893,35 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -7740,6 +7956,7 @@ MOVE_DATA = {
         "id": 469,
         "accuracy": None,
         "priority": 3,
+        "max_pp": 10,
         "power": None,
         "type": "rock",
         "damage_class": "status",
@@ -7774,6 +7991,7 @@ MOVE_DATA = {
         "id": 487,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "water",
         "damage_class": "status",
@@ -7808,6 +8026,7 @@ MOVE_DATA = {
         "id": 503,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "water",
         "damage_class": "special",
@@ -7842,6 +8061,7 @@ MOVE_DATA = {
         "id": 512,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 55,
         "type": "flying",
         "damage_class": "physical",
@@ -7876,6 +8096,7 @@ MOVE_DATA = {
         "id": 542,
         "accuracy": 70,
         "priority": 0,
+        "max_pp": 10,
         "power": 110,
         "type": "flying",
         "damage_class": "special",
@@ -7910,6 +8131,7 @@ MOVE_DATA = {
         "id": 710,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 85,
         "type": "water",
         "damage_class": "physical",
@@ -7917,7 +8139,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -7952,6 +8174,7 @@ MOVE_DATA = {
         "id": 814,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 40,
         "type": "flying",
         "damage_class": "physical",
@@ -7986,6 +8209,7 @@ MOVE_DATA = {
         "id": 883,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": 0,
         "type": "ice",
         "damage_class": "status",
@@ -7999,6 +8223,7 @@ MOVE_DATA = {
         "id": 886,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 50,
         "type": "water",
         "damage_class": "special",
@@ -8012,6 +8237,7 @@ MOVE_DATA = {
         "id": 254,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8019,14 +8245,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -8061,6 +8287,7 @@ MOVE_DATA = {
         "id": 255,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "special",
@@ -8095,6 +8322,7 @@ MOVE_DATA = {
         "id": 256,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8129,6 +8357,7 @@ MOVE_DATA = {
         "id": 311,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 50,
         "type": "normal",
         "damage_class": "special",
@@ -8163,6 +8392,7 @@ MOVE_DATA = {
         "id": 507,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 60,
         "type": "flying",
         "damage_class": "physical",
@@ -8197,6 +8427,7 @@ MOVE_DATA = {
         "id": 60,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "psychic",
         "damage_class": "special",
@@ -8231,6 +8462,7 @@ MOVE_DATA = {
         "id": 61,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "water",
         "damage_class": "special",
@@ -8238,7 +8470,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -8273,6 +8505,7 @@ MOVE_DATA = {
         "id": 62,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "ice",
         "damage_class": "special",
@@ -8280,7 +8513,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -8315,6 +8548,7 @@ MOVE_DATA = {
         "id": 94,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "psychic",
         "damage_class": "special",
@@ -8322,7 +8556,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -8357,6 +8591,7 @@ MOVE_DATA = {
         "id": 99,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 20,
         "type": "normal",
         "damage_class": "physical",
@@ -8391,6 +8626,7 @@ MOVE_DATA = {
         "id": 100,
         "accuracy": None,
         "priority": -6,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -8425,6 +8661,7 @@ MOVE_DATA = {
         "id": 105,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8459,6 +8696,7 @@ MOVE_DATA = {
         "id": 106,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8466,7 +8704,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -8501,6 +8739,7 @@ MOVE_DATA = {
         "id": 107,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8543,6 +8782,7 @@ MOVE_DATA = {
         "id": 109,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "ghost",
         "damage_class": "status",
@@ -8577,6 +8817,7 @@ MOVE_DATA = {
         "id": 112,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -8584,7 +8825,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -8619,6 +8860,7 @@ MOVE_DATA = {
         "id": 115,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -8653,6 +8895,7 @@ MOVE_DATA = {
         "id": 130,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 130,
         "type": "normal",
         "damage_class": "physical",
@@ -8687,6 +8930,7 @@ MOVE_DATA = {
         "id": 149,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "psychic",
         "damage_class": "special",
@@ -8721,6 +8965,7 @@ MOVE_DATA = {
         "id": 161,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "normal",
         "damage_class": "special",
@@ -8755,6 +9000,7 @@ MOVE_DATA = {
         "id": 220,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8789,6 +9035,7 @@ MOVE_DATA = {
         "id": 229,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 40,
         "power": 50,
         "type": "normal",
         "damage_class": "physical",
@@ -8796,7 +9043,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -8831,6 +9078,7 @@ MOVE_DATA = {
         "id": 244,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8865,6 +9113,7 @@ MOVE_DATA = {
         "id": 277,
         "accuracy": None,
         "priority": 4,
+        "max_pp": 15,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -8899,6 +9148,7 @@ MOVE_DATA = {
         "id": 278,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -8933,6 +9183,7 @@ MOVE_DATA = {
         "id": 291,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "water",
         "damage_class": "physical",
@@ -8967,6 +9218,7 @@ MOVE_DATA = {
         "id": 322,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -8974,14 +9226,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -9016,6 +9268,7 @@ MOVE_DATA = {
         "id": 324,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 75,
         "type": "bug",
         "damage_class": "special",
@@ -9050,6 +9303,7 @@ MOVE_DATA = {
         "id": 356,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9084,6 +9338,7 @@ MOVE_DATA = {
         "id": 360,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "steel",
         "damage_class": "physical",
@@ -9118,6 +9373,7 @@ MOVE_DATA = {
         "id": 408,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "rock",
         "damage_class": "special",
@@ -9152,6 +9408,7 @@ MOVE_DATA = {
         "id": 430,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "steel",
         "damage_class": "special",
@@ -9159,7 +9416,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -9194,6 +9451,7 @@ MOVE_DATA = {
         "id": 513,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -9228,6 +9486,7 @@ MOVE_DATA = {
         "id": 605,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "fairy",
         "damage_class": "special",
@@ -9262,6 +9521,7 @@ MOVE_DATA = {
         "id": 812,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "water",
         "damage_class": "physical",
@@ -9296,6 +9556,7 @@ MOVE_DATA = {
         "id": 138,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 100,
         "type": "psychic",
         "damage_class": "special",
@@ -9330,6 +9591,7 @@ MOVE_DATA = {
         "id": 171,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "ghost",
         "damage_class": "status",
@@ -9364,6 +9626,7 @@ MOVE_DATA = {
         "id": 271,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9398,6 +9661,7 @@ MOVE_DATA = {
         "id": 285,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9432,6 +9696,7 @@ MOVE_DATA = {
         "id": 427,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "psychic",
         "damage_class": "physical",
@@ -9466,6 +9731,7 @@ MOVE_DATA = {
         "id": 433,
         "accuracy": None,
         "priority": -7,
+        "max_pp": 5,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9500,6 +9766,7 @@ MOVE_DATA = {
         "id": 472,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9534,6 +9801,7 @@ MOVE_DATA = {
         "id": 473,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "psychic",
         "damage_class": "special",
@@ -9568,6 +9836,7 @@ MOVE_DATA = {
         "id": 477,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9602,6 +9871,7 @@ MOVE_DATA = {
         "id": 502,
         "accuracy": None,
         "priority": 2,
+        "max_pp": 15,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -9636,6 +9906,7 @@ MOVE_DATA = {
         "id": 671,
         "accuracy": None,
         "priority": 3,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -9670,6 +9941,7 @@ MOVE_DATA = {
         "id": 797,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "psychic",
         "damage_class": "special",
@@ -9704,6 +9976,7 @@ MOVE_DATA = {
         "id": 800,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "rock",
         "damage_class": "special",
@@ -9738,6 +10011,7 @@ MOVE_DATA = {
         "id": 90,
         "accuracy": 30,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "ground",
         "damage_class": "physical",
@@ -9772,6 +10046,7 @@ MOVE_DATA = {
         "id": 181,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 40,
         "type": "ice",
         "damage_class": "special",
@@ -9806,6 +10081,7 @@ MOVE_DATA = {
         "id": 301,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 20,
         "power": 30,
         "type": "ice",
         "damage_class": "physical",
@@ -9840,6 +10116,7 @@ MOVE_DATA = {
         "id": 329,
         "accuracy": 30,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "ice",
         "damage_class": "special",
@@ -9874,6 +10151,7 @@ MOVE_DATA = {
         "id": 401,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "water",
         "damage_class": "physical",
@@ -9908,6 +10186,7 @@ MOVE_DATA = {
         "id": 524,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 60,
         "type": "ice",
         "damage_class": "special",
@@ -9942,6 +10221,7 @@ MOVE_DATA = {
         "id": 798,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 130,
         "type": "steel",
         "damage_class": "physical",
@@ -9976,6 +10256,7 @@ MOVE_DATA = {
         "id": 333,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 25,
         "type": "ice",
         "damage_class": "physical",
@@ -10010,6 +10291,7 @@ MOVE_DATA = {
         "id": 335,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -10044,6 +10326,7 @@ MOVE_DATA = {
         "id": 423,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 65,
         "type": "ice",
         "damage_class": "physical",
@@ -10078,6 +10361,7 @@ MOVE_DATA = {
         "id": 442,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "steel",
         "damage_class": "physical",
@@ -10112,6 +10396,7 @@ MOVE_DATA = {
         "id": 484,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "steel",
         "damage_class": "physical",
@@ -10146,6 +10431,7 @@ MOVE_DATA = {
         "id": 776,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "fighting",
         "damage_class": "physical",
@@ -10179,6 +10465,7 @@ MOVE_DATA = {
         "id": 53,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "fire",
         "damage_class": "special",
@@ -10213,6 +10500,7 @@ MOVE_DATA = {
         "id": 126,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 5,
         "power": 110,
         "type": "fire",
         "damage_class": "special",
@@ -10247,6 +10535,7 @@ MOVE_DATA = {
         "id": 133,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -10254,7 +10543,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -10289,6 +10578,7 @@ MOVE_DATA = {
         "id": 303,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -10323,6 +10613,7 @@ MOVE_DATA = {
         "id": 306,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "normal",
         "damage_class": "physical",
@@ -10330,7 +10621,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -10365,6 +10656,7 @@ MOVE_DATA = {
         "id": 321,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -10372,14 +10664,14 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -10414,6 +10706,7 @@ MOVE_DATA = {
         "id": 389,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 5,
         "power": 70,
         "type": "dark",
         "damage_class": "physical",
@@ -10448,6 +10741,7 @@ MOVE_DATA = {
         "id": 398,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "poison",
         "damage_class": "physical",
@@ -10482,6 +10776,7 @@ MOVE_DATA = {
         "id": 404,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "bug",
         "damage_class": "physical",
@@ -10516,6 +10811,7 @@ MOVE_DATA = {
         "id": 495,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -10550,6 +10846,7 @@ MOVE_DATA = {
         "id": 510,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 60,
         "type": "fire",
         "damage_class": "special",
@@ -10584,6 +10881,7 @@ MOVE_DATA = {
         "id": 179,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "fighting",
         "damage_class": "physical",
@@ -10618,6 +10916,7 @@ MOVE_DATA = {
         "id": 200,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "dragon",
         "damage_class": "physical",
@@ -10639,9 +10938,9 @@ MOVE_DATA = {
             "flinch_chance": 0,
             "healing": 0,
             "max_hits": None,
-            "max_turns": None,
+            "max_turns": 3,
             "min_hits": None,
-            "min_turns": None,
+            "min_turns": 2,
             "stat_chance": 0
         },
         "effect_entries": "Hits every turn for 2-3 turns, then confuses the user.",
@@ -10652,6 +10951,7 @@ MOVE_DATA = {
         "id": 409,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "fighting",
         "damage_class": "physical",
@@ -10686,6 +10986,7 @@ MOVE_DATA = {
         "id": 490,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "fighting",
         "damage_class": "physical",
@@ -10693,7 +10994,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -10728,6 +11029,7 @@ MOVE_DATA = {
         "id": 808,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 75,
         "type": "dark",
         "damage_class": "physical",
@@ -10762,6 +11064,7 @@ MOVE_DATA = {
         "id": 386,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "dark",
         "damage_class": "physical",
@@ -10796,6 +11099,7 @@ MOVE_DATA = {
         "id": 511,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -10830,6 +11134,7 @@ MOVE_DATA = {
         "id": 884,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 50,
         "type": "bug",
         "damage_class": "physical",
@@ -10843,6 +11148,7 @@ MOVE_DATA = {
         "id": 912,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 0,
         "type": "steel",
         "damage_class": "physical",
@@ -10856,6 +11162,7 @@ MOVE_DATA = {
         "id": 71,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 20,
         "type": "grass",
         "damage_class": "special",
@@ -10890,6 +11197,7 @@ MOVE_DATA = {
         "id": 72,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 40,
         "type": "grass",
         "damage_class": "special",
@@ -10924,6 +11232,7 @@ MOVE_DATA = {
         "id": 74,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -10931,14 +11240,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -10973,6 +11282,7 @@ MOVE_DATA = {
         "id": 77,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 35,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -11007,6 +11317,7 @@ MOVE_DATA = {
         "id": 78,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -11041,6 +11352,7 @@ MOVE_DATA = {
         "id": 79,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -11075,6 +11387,7 @@ MOVE_DATA = {
         "id": 81,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "bug",
         "damage_class": "status",
@@ -11082,7 +11395,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -11117,6 +11430,7 @@ MOVE_DATA = {
         "id": 103,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -11124,7 +11438,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -11159,6 +11473,7 @@ MOVE_DATA = {
         "id": 141,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "bug",
         "damage_class": "physical",
@@ -11193,6 +11508,7 @@ MOVE_DATA = {
         "id": 147,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -11227,6 +11543,7 @@ MOVE_DATA = {
         "id": 188,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "poison",
         "damage_class": "special",
@@ -11261,6 +11578,7 @@ MOVE_DATA = {
         "id": 440,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "poison",
         "damage_class": "physical",
@@ -11295,6 +11613,7 @@ MOVE_DATA = {
         "id": 450,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "bug",
         "damage_class": "physical",
@@ -11329,6 +11648,7 @@ MOVE_DATA = {
         "id": 474,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 65,
         "type": "poison",
         "damage_class": "special",
@@ -11363,6 +11683,7 @@ MOVE_DATA = {
         "id": 476,
         "accuracy": None,
         "priority": 2,
+        "max_pp": 20,
         "power": None,
         "type": "bug",
         "damage_class": "status",
@@ -11397,6 +11718,7 @@ MOVE_DATA = {
         "id": 522,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 50,
         "type": "bug",
         "damage_class": "special",
@@ -11404,7 +11726,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -11439,6 +11761,7 @@ MOVE_DATA = {
         "id": 563,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "ground",
         "damage_class": "status",
@@ -11446,14 +11769,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -11480,7 +11803,7 @@ MOVE_DATA = {
             "min_turns": None,
             "stat_chance": 100
         },
-        "effect_entries": "Raises the Attack and Special Attack of all grass Pok\u00e9mon in battle.",
+        "effect_entries": "Raises the Attack and Special Attack of all grass Pok\u00e9mon in.",
         "flavor_text_entry": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pok\u00e9mon."
     },
     "fell-stinger": {
@@ -11488,6 +11811,7 @@ MOVE_DATA = {
         "id": 565,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 50,
         "type": "bug",
         "damage_class": "physical",
@@ -11522,6 +11846,7 @@ MOVE_DATA = {
         "id": 20,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 20,
         "power": 15,
         "type": "normal",
         "damage_class": "physical",
@@ -11556,6 +11881,7 @@ MOVE_DATA = {
         "id": 50,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -11590,6 +11916,7 @@ MOVE_DATA = {
         "id": 146,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -11624,6 +11951,7 @@ MOVE_DATA = {
         "id": 197,
         "accuracy": None,
         "priority": 4,
+        "max_pp": 5,
         "power": None,
         "type": "fighting",
         "damage_class": "status",
@@ -11658,6 +11986,7 @@ MOVE_DATA = {
         "id": 246,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 60,
         "type": "rock",
         "damage_class": "special",
@@ -11665,35 +11994,35 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -11728,6 +12057,7 @@ MOVE_DATA = {
         "id": 252,
         "accuracy": 100,
         "priority": 3,
+        "max_pp": 10,
         "power": 40,
         "type": "normal",
         "damage_class": "physical",
@@ -11762,6 +12092,7 @@ MOVE_DATA = {
         "id": 272,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -11796,6 +12127,7 @@ MOVE_DATA = {
         "id": 289,
         "accuracy": None,
         "priority": 4,
+        "max_pp": 10,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -11830,6 +12162,7 @@ MOVE_DATA = {
         "id": 310,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 30,
         "type": "ghost",
         "damage_class": "physical",
@@ -11864,6 +12197,7 @@ MOVE_DATA = {
         "id": 364,
         "accuracy": 100,
         "priority": 2,
+        "max_pp": 10,
         "power": 30,
         "type": "normal",
         "damage_class": "physical",
@@ -11898,6 +12232,7 @@ MOVE_DATA = {
         "id": 417,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -11905,7 +12240,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -11940,6 +12275,7 @@ MOVE_DATA = {
         "id": 425,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": 40,
         "type": "ghost",
         "damage_class": "physical",
@@ -11974,6 +12310,7 @@ MOVE_DATA = {
         "id": 446,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "rock",
         "damage_class": "status",
@@ -12008,6 +12345,7 @@ MOVE_DATA = {
         "id": 485,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "psychic",
         "damage_class": "special",
@@ -12042,6 +12380,7 @@ MOVE_DATA = {
         "id": 492,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 95,
         "type": "dark",
         "damage_class": "physical",
@@ -12076,6 +12415,7 @@ MOVE_DATA = {
         "id": 49,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "special",
@@ -12110,6 +12450,7 @@ MOVE_DATA = {
         "id": 153,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 250,
         "type": "normal",
         "damage_class": "physical",
@@ -12144,6 +12485,7 @@ MOVE_DATA = {
         "id": 199,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -12178,6 +12520,7 @@ MOVE_DATA = {
         "id": 201,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "rock",
         "damage_class": "status",
@@ -12212,6 +12555,7 @@ MOVE_DATA = {
         "id": 319,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "steel",
         "damage_class": "status",
@@ -12219,7 +12563,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -12254,6 +12598,7 @@ MOVE_DATA = {
         "id": 334,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "steel",
         "damage_class": "status",
@@ -12261,7 +12606,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -12296,6 +12641,7 @@ MOVE_DATA = {
         "id": 429,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 65,
         "type": "steel",
         "damage_class": "special",
@@ -12338,6 +12684,7 @@ MOVE_DATA = {
         "id": 443,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "steel",
         "damage_class": "physical",
@@ -12372,6 +12719,7 @@ MOVE_DATA = {
         "id": 796,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 5,
         "power": 140,
         "type": "steel",
         "damage_class": "special",
@@ -12406,6 +12754,7 @@ MOVE_DATA = {
         "id": 804,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "electric",
         "damage_class": "special",
@@ -12440,6 +12789,7 @@ MOVE_DATA = {
         "id": 120,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 200,
         "type": "normal",
         "damage_class": "physical",
@@ -12474,6 +12824,7 @@ MOVE_DATA = {
         "id": 243,
         "accuracy": 100,
         "priority": -5,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "special",
@@ -12508,6 +12859,7 @@ MOVE_DATA = {
         "id": 602,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "electric",
         "damage_class": "status",
@@ -12515,14 +12867,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -12557,6 +12909,7 @@ MOVE_DATA = {
         "id": 916,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 100,
         "type": "electric",
         "damage_class": "physical",
@@ -12570,6 +12923,7 @@ MOVE_DATA = {
         "id": 1,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 40,
         "type": "normal",
         "damage_class": "physical",
@@ -12604,6 +12958,7 @@ MOVE_DATA = {
         "id": 3,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 15,
         "type": "normal",
         "damage_class": "physical",
@@ -12638,6 +12993,7 @@ MOVE_DATA = {
         "id": 114,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "ice",
         "damage_class": "status",
@@ -12672,6 +13028,7 @@ MOVE_DATA = {
         "id": 124,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "poison",
         "damage_class": "special",
@@ -12706,6 +13063,7 @@ MOVE_DATA = {
         "id": 139,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -12740,6 +13098,7 @@ MOVE_DATA = {
         "id": 180,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "ghost",
         "damage_class": "status",
@@ -12774,6 +13133,7 @@ MOVE_DATA = {
         "id": 191,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "ground",
         "damage_class": "status",
@@ -12808,6 +13168,7 @@ MOVE_DATA = {
         "id": 300,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "ground",
         "damage_class": "status",
@@ -12842,6 +13203,7 @@ MOVE_DATA = {
         "id": 350,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 25,
         "type": "rock",
         "damage_class": "physical",
@@ -12876,6 +13238,7 @@ MOVE_DATA = {
         "id": 390,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -12910,6 +13273,7 @@ MOVE_DATA = {
         "id": 399,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "dark",
         "damage_class": "special",
@@ -12944,6 +13308,7 @@ MOVE_DATA = {
         "id": 475,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "steel",
         "damage_class": "status",
@@ -12951,7 +13316,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -12986,6 +13351,7 @@ MOVE_DATA = {
         "id": 482,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 95,
         "type": "poison",
         "damage_class": "special",
@@ -13020,6 +13386,7 @@ MOVE_DATA = {
         "id": 491,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 40,
         "type": "poison",
         "damage_class": "special",
@@ -13027,7 +13394,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -13062,6 +13429,7 @@ MOVE_DATA = {
         "id": 499,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": 50,
         "type": "poison",
         "damage_class": "special",
@@ -13096,6 +13464,7 @@ MOVE_DATA = {
         "id": 562,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "poison",
         "damage_class": "special",
@@ -13130,6 +13499,7 @@ MOVE_DATA = {
         "id": 599,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -13137,21 +13507,21 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             },
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -13186,6 +13556,7 @@ MOVE_DATA = {
         "id": 611,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 20,
         "type": "bug",
         "damage_class": "special",
@@ -13220,6 +13591,7 @@ MOVE_DATA = {
         "id": 810,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -13254,6 +13626,7 @@ MOVE_DATA = {
         "id": 397,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "rock",
         "damage_class": "status",
@@ -13261,7 +13634,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -13296,6 +13669,7 @@ MOVE_DATA = {
         "id": 159,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -13303,7 +13677,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -13338,6 +13712,7 @@ MOVE_DATA = {
         "id": 160,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -13372,6 +13747,7 @@ MOVE_DATA = {
         "id": 176,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -13406,6 +13782,7 @@ MOVE_DATA = {
         "id": 384,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -13440,6 +13817,7 @@ MOVE_DATA = {
         "id": 385,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -13474,6 +13852,7 @@ MOVE_DATA = {
         "id": 683,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -13508,6 +13887,7 @@ MOVE_DATA = {
         "id": 373,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -13542,6 +13922,7 @@ MOVE_DATA = {
         "id": 23,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 65,
         "type": "normal",
         "damage_class": "physical",
@@ -13576,6 +13957,7 @@ MOVE_DATA = {
         "id": 208,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -13610,6 +13992,7 @@ MOVE_DATA = {
         "id": 215,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -13644,6 +14027,7 @@ MOVE_DATA = {
         "id": 217,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -13678,6 +14062,7 @@ MOVE_DATA = {
         "id": 358,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 70,
         "type": "fighting",
         "damage_class": "physical",
@@ -13712,6 +14097,7 @@ MOVE_DATA = {
         "id": 531,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 60,
         "type": "psychic",
         "damage_class": "physical",
@@ -13746,6 +14132,7 @@ MOVE_DATA = {
         "id": 405,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "bug",
         "damage_class": "special",
@@ -13753,7 +14140,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -13788,6 +14175,7 @@ MOVE_DATA = {
         "id": 679,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "bug",
         "damage_class": "physical",
@@ -13795,7 +14183,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -13830,6 +14218,7 @@ MOVE_DATA = {
         "id": 806,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 70,
         "type": "bug",
         "damage_class": "physical",
@@ -13837,7 +14226,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -13872,6 +14261,7 @@ MOVE_DATA = {
         "id": 40,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 15,
         "type": "poison",
         "damage_class": "physical",
@@ -13906,6 +14296,7 @@ MOVE_DATA = {
         "id": 42,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 20,
         "power": 25,
         "type": "bug",
         "damage_class": "physical",
@@ -13940,6 +14331,7 @@ MOVE_DATA = {
         "id": 194,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "ghost",
         "damage_class": "status",
@@ -13974,6 +14366,7 @@ MOVE_DATA = {
         "id": 251,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "dark",
         "damage_class": "physical",
@@ -14008,6 +14401,7 @@ MOVE_DATA = {
         "id": 279,
         "accuracy": 100,
         "priority": -4,
+        "max_pp": 10,
         "power": 60,
         "type": "fighting",
         "damage_class": "physical",
@@ -14042,6 +14436,7 @@ MOVE_DATA = {
         "id": 318,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 60,
         "type": "bug",
         "damage_class": "special",
@@ -14049,35 +14444,35 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -14112,6 +14507,7 @@ MOVE_DATA = {
         "id": 372,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 60,
         "type": "dark",
         "damage_class": "physical",
@@ -14146,6 +14542,7 @@ MOVE_DATA = {
         "id": 454,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "bug",
         "damage_class": "physical",
@@ -14180,6 +14577,7 @@ MOVE_DATA = {
         "id": 455,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "bug",
         "damage_class": "status",
@@ -14187,14 +14585,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -14229,6 +14627,7 @@ MOVE_DATA = {
         "id": 456,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "bug",
         "damage_class": "status",
@@ -14263,6 +14662,7 @@ MOVE_DATA = {
         "id": 506,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 65,
         "type": "ghost",
         "damage_class": "special",
@@ -14297,6 +14697,7 @@ MOVE_DATA = {
         "id": 597,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -14304,7 +14705,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -14339,6 +14740,7 @@ MOVE_DATA = {
         "id": 676,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 90,
         "type": "bug",
         "damage_class": "special",
@@ -14373,6 +14775,7 @@ MOVE_DATA = {
         "id": 917,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "psychic",
         "damage_class": "special",
@@ -14386,6 +14789,7 @@ MOVE_DATA = {
         "id": 75,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 25,
         "power": 55,
         "type": "grass",
         "damage_class": "physical",
@@ -14420,6 +14824,7 @@ MOVE_DATA = {
         "id": 170,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -14454,6 +14859,7 @@ MOVE_DATA = {
         "id": 178,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -14461,7 +14867,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -14496,6 +14902,7 @@ MOVE_DATA = {
         "id": 326,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "psychic",
         "damage_class": "special",
@@ -14530,6 +14937,7 @@ MOVE_DATA = {
         "id": 791,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "water",
         "damage_class": "status",
@@ -14563,6 +14971,7 @@ MOVE_DATA = {
         "id": 80,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "grass",
         "damage_class": "special",
@@ -14597,6 +15006,7 @@ MOVE_DATA = {
         "id": 275,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -14631,6 +15041,7 @@ MOVE_DATA = {
         "id": 438,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "grass",
         "damage_class": "physical",
@@ -14665,6 +15076,7 @@ MOVE_DATA = {
         "id": 150,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -14699,6 +15111,7 @@ MOVE_DATA = {
         "id": 298,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -14733,6 +15146,7 @@ MOVE_DATA = {
         "id": 367,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -14767,6 +15181,7 @@ MOVE_DATA = {
         "id": 577,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 50,
         "type": "fairy",
         "damage_class": "special",
@@ -14801,6 +15216,7 @@ MOVE_DATA = {
         "id": 813,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 20,
         "type": "ice",
         "damage_class": "physical",
@@ -14835,6 +15251,7 @@ MOVE_DATA = {
         "id": 136,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 130,
         "type": "fighting",
         "damage_class": "physical",
@@ -14869,6 +15286,7 @@ MOVE_DATA = {
         "id": 669,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 125,
         "type": "grass",
         "damage_class": "physical",
@@ -14903,6 +15321,7 @@ MOVE_DATA = {
         "id": 688,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 70,
         "type": "grass",
         "damage_class": "physical",
@@ -14910,7 +15329,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -14945,6 +15364,7 @@ MOVE_DATA = {
         "id": 328,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 15,
         "power": 35,
         "type": "ground",
         "damage_class": "physical",
@@ -14979,6 +15399,7 @@ MOVE_DATA = {
         "id": 379,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -15013,6 +15434,7 @@ MOVE_DATA = {
         "id": 529,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "ground",
         "damage_class": "physical",
@@ -15047,6 +15469,7 @@ MOVE_DATA = {
         "id": 861,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "ice",
         "damage_class": "physical",
@@ -15060,6 +15483,7 @@ MOVE_DATA = {
         "id": 414,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "ground",
         "damage_class": "special",
@@ -15067,7 +15491,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -15102,6 +15526,7 @@ MOVE_DATA = {
         "id": 21,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "normal",
         "damage_class": "physical",
@@ -15136,6 +15561,7 @@ MOVE_DATA = {
         "id": 35,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 20,
         "power": 15,
         "type": "normal",
         "damage_class": "physical",
@@ -15170,6 +15596,7 @@ MOVE_DATA = {
         "id": 82,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "dragon",
         "damage_class": "special",
@@ -15204,6 +15631,7 @@ MOVE_DATA = {
         "id": 83,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 15,
         "power": 35,
         "type": "fire",
         "damage_class": "special",
@@ -15238,6 +15666,7 @@ MOVE_DATA = {
         "id": 225,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "dragon",
         "damage_class": "special",
@@ -15272,6 +15701,7 @@ MOVE_DATA = {
         "id": 245,
         "accuracy": 100,
         "priority": 2,
+        "max_pp": 5,
         "power": 80,
         "type": "normal",
         "damage_class": "physical",
@@ -15306,6 +15736,7 @@ MOVE_DATA = {
         "id": 349,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "dragon",
         "damage_class": "status",
@@ -15313,14 +15744,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -15355,6 +15786,7 @@ MOVE_DATA = {
         "id": 406,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 85,
         "type": "dragon",
         "damage_class": "special",
@@ -15389,6 +15821,7 @@ MOVE_DATA = {
         "id": 407,
         "accuracy": 75,
         "priority": 0,
+        "max_pp": 10,
         "power": 100,
         "type": "dragon",
         "damage_class": "physical",
@@ -15423,6 +15856,7 @@ MOVE_DATA = {
         "id": 434,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 130,
         "type": "dragon",
         "damage_class": "special",
@@ -15430,7 +15864,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -15465,6 +15899,7 @@ MOVE_DATA = {
         "id": 453,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 20,
         "power": 40,
         "type": "water",
         "damage_class": "physical",
@@ -15499,6 +15934,7 @@ MOVE_DATA = {
         "id": 525,
         "accuracy": 90,
         "priority": -6,
+        "max_pp": 10,
         "power": 60,
         "type": "dragon",
         "damage_class": "physical",
@@ -15533,6 +15969,7 @@ MOVE_DATA = {
         "id": 693,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "dark",
         "damage_class": "physical",
@@ -15567,6 +16004,7 @@ MOVE_DATA = {
         "id": 784,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 60,
         "type": "dragon",
         "damage_class": "physical",
@@ -15574,7 +16012,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -15609,6 +16047,7 @@ MOVE_DATA = {
         "id": 799,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 20,
         "power": 25,
         "type": "dragon",
         "damage_class": "physical",
@@ -15643,6 +16082,7 @@ MOVE_DATA = {
         "id": 913,
         "accuracy": 0,
         "priority": 0,
+        "max_pp": 15,
         "power": 0,
         "type": "dragon",
         "damage_class": "status",
@@ -15656,6 +16096,7 @@ MOVE_DATA = {
         "id": 32,
         "accuracy": 30,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -15690,6 +16131,7 @@ MOVE_DATA = {
         "id": 13,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "normal",
         "damage_class": "special",
@@ -15724,6 +16166,7 @@ MOVE_DATA = {
         "id": 257,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 95,
         "type": "fire",
         "damage_class": "special",
@@ -15758,6 +16201,7 @@ MOVE_DATA = {
         "id": 337,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "dragon",
         "damage_class": "physical",
@@ -15792,6 +16236,7 @@ MOVE_DATA = {
         "id": 52,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 40,
         "type": "fire",
         "damage_class": "special",
@@ -15826,6 +16271,7 @@ MOVE_DATA = {
         "id": 424,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 65,
         "type": "fire",
         "damage_class": "physical",
@@ -15860,6 +16306,7 @@ MOVE_DATA = {
         "id": 915,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "fire",
         "damage_class": "physical",
@@ -15873,6 +16320,7 @@ MOVE_DATA = {
         "id": 706,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 85,
         "type": "psychic",
         "damage_class": "physical",
@@ -15902,499 +16350,12 @@ MOVE_DATA = {
         "effect_entries": "Destroys Reflect and Light Screen.",
         "flavor_text_entry": "The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect."
     },
-    "vine-whip": {
-        "name": "vine-whip",
-        "id": 22,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 45,
-        "type": "grass",
-        "damage_class": "physical",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Inflicts regular damage with no additional effect.",
-        "flavor_text_entry": "Whips the foe with slender vines."
-    },
-    "wish": {
-        "name": "wish",
-        "id": 273,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "normal",
-        "damage_class": "status",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "user",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "unique",
-                "url": "https://pokeapi.co/api/v2/move-category/13/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "User will recover half its max HP at the end of the next turn.",
-        "flavor_text_entry": "A wish that restores HP. It takes time to work."
-    },
-    "calm-mind": {
-        "name": "calm-mind",
-        "id": 347,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "psychic",
-        "damage_class": "status",
-        "stat_changes": [
-            {
-                "change": 1,
-                "stat": {
-                    "name": "special-attack",
-                    "url": "https://pokeapi.co/api/v2/stat/4/"
-                }
-            },
-            {
-                "change": 1,
-                "stat": {
-                    "name": "special-defense",
-                    "url": "https://pokeapi.co/api/v2/stat/5/"
-                }
-            }
-        ],
-        "effect_chance": None,
-        "target": "user",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "net-good-stats",
-                "url": "https://pokeapi.co/api/v2/move-category/2/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Raises the user's Special Attack and Special Defense by one stage.",
-        "flavor_text_entry": "Raises SP. ATK and SP. DEF by focusing the mind."
-    },
-    "lucky-chant": {
-        "name": "lucky-chant",
-        "id": 381,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "normal",
-        "damage_class": "status",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "users-field",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "field-effect",
-                "url": "https://pokeapi.co/api/v2/move-category/11/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Prevents the target from scoring critical hits for five turns.",
-        "flavor_text_entry": "The user chants an incantation toward the sky, preventing the foe from landing critical hits."
-    },
-    "copycat": {
-        "name": "copycat",
-        "id": 383,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "normal",
-        "damage_class": "status",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "user",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "unique",
-                "url": "https://pokeapi.co/api/v2/move-category/13/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Uses the target's last used move.",
-        "flavor_text_entry": "The user mimics the move used immediately before it. The move fails if no other move has been used yet."
-    },
-    "stored-power": {
-        "name": "stored-power",
-        "id": 500,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 20,
-        "type": "psychic",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Power is higher the more the user's stats have been raised, to a maximum of 31\u00d7.",
-        "flavor_text_entry": "The user attacks the target with stored power. The more the user\u2019s stats are raised, the greater the damage."
-    },
-    "disarming-voice": {
-        "name": "disarming-voice",
-        "id": 574,
-        "accuracy": None,
-        "priority": 0,
-        "power": 40,
-        "type": "fairy",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "all-opponents",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Never misses.",
-        "flavor_text_entry": "Letting out a charming cry, the user does emotional damage to opposing Pok\u00e9mon. This attack never misses."
-    },
-    "misty-terrain": {
-        "name": "misty-terrain",
-        "id": 581,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "fairy",
-        "damage_class": "status",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "entire-field",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "whole-field-effect",
-                "url": "https://pokeapi.co/api/v2/move-category/10/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "For five turns, protects all Pok\u00e9mon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves.",
-        "flavor_text_entry": "The user covers the ground under everyone\u2019s feet with mist for five turns. This protects Pok\u00e9mon on the ground from status conditions."
-    },
-    "fairy-wind": {
-        "name": "fairy-wind",
-        "id": 584,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 40,
-        "type": "fairy",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Inflicts regular damage with no additional effect.",
-        "flavor_text_entry": "The user stirs up a fairy wind and strikes the target with it."
-    },
-    "moonblast": {
-        "name": "moonblast",
-        "id": 585,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 95,
-        "type": "fairy",
-        "damage_class": "special",
-        "stat_changes": [
-            {
-                "change": -1,
-                "stat": {
-                    "name": "special-attack",
-                    "url": "https://pokeapi.co/api/v2/stat/4/"
-                }
-            }
-        ],
-        "effect_chance": 30,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage+lower",
-                "url": "https://pokeapi.co/api/v2/move-category/6/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 30
-        },
-        "effect_entries": "Has a 30% chance to lower the target's Special Attack by one stage.",
-        "flavor_text_entry": "Borrowing the power of the moon, the user attacks the target. This may also lower the target\u2019s Sp. Atk stat."
-    },
-    "tearful-look": {
-        "name": "tearful-look",
-        "id": 715,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "normal",
-        "damage_class": "status",
-        "stat_changes": [
-            {
-                "change": -1,
-                "stat": {
-                    "name": "attack",
-                    "url": "https://pokeapi.co/api/v2/stat/2/"
-                }
-            },
-            {
-                "change": -1,
-                "stat": {
-                    "name": "special-attack",
-                    "url": "https://pokeapi.co/api/v2/stat/4/"
-                }
-            }
-        ],
-        "effect_chance": 100,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "net-good-stats",
-                "url": "https://pokeapi.co/api/v2/move-category/2/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 100
-        },
-        "effect_entries": "Lowers the target's Attack and Special Attack by one stage.",
-        "flavor_text_entry": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target\u2019s Attack and Sp. Atk stats."
-    },
-    "flower-shield": {
-        "name": "flower-shield",
-        "id": 579,
-        "accuracy": None,
-        "priority": 0,
-        "power": None,
-        "type": "fairy",
-        "damage_class": "status",
-        "stat_changes": [
-            {
-                "change": 1,
-                "stat": {
-                    "name": "defense",
-                    "url": "https://pokeapi.co/api/v2/stat/3/"
-                }
-            }
-        ],
-        "effect_chance": 100,
-        "target": "all-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "unique",
-                "url": "https://pokeapi.co/api/v2/move-category/13/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 100
-        },
-        "effect_entries": "Raises the Defense of all grass Pok\u00e9mon in battle.",
-        "flavor_text_entry": "The user raises the Defense stat of all Grass-type Pok\u00e9mon in battle with a mysterious power."
-    },
-    "misty-explosion": {
-        "name": "misty-explosion",
-        "id": 802,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 100,
-        "type": "fairy",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "all-other-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Inflicts regular damage with no additional effect.",
-        "flavor_text_entry": "The user attacks everything around it and faints upon using this move. This move\u2019s power is increased on Misty Terrain."
-    },
     "smelling-salts": {
         "name": "smelling-salts",
         "id": 265,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 70,
         "type": "normal",
         "damage_class": "physical",
@@ -16429,6 +16390,7 @@ MOVE_DATA = {
         "id": 315,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 130,
         "type": "fire",
         "damage_class": "special",
@@ -16436,7 +16398,7 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -16471,6 +16433,7 @@ MOVE_DATA = {
         "id": 555,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 15,
         "power": 55,
         "type": "dark",
         "damage_class": "special",
@@ -16478,7 +16441,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -16513,6 +16476,7 @@ MOVE_DATA = {
         "id": 123,
         "accuracy": 70,
         "priority": 0,
+        "max_pp": 20,
         "power": 30,
         "type": "poison",
         "damage_class": "special",
@@ -16547,6 +16511,7 @@ MOVE_DATA = {
         "id": 151,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -16554,7 +16519,7 @@ MOVE_DATA = {
             {
                 "change": 2,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -16589,6 +16554,7 @@ MOVE_DATA = {
         "id": 212,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -16623,6 +16589,7 @@ MOVE_DATA = {
         "id": 262,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -16630,14 +16597,14 @@ MOVE_DATA = {
             {
                 "change": -2,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": -2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -16672,6 +16639,7 @@ MOVE_DATA = {
         "id": 286,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -16706,6 +16674,7 @@ MOVE_DATA = {
         "id": 325,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 60,
         "type": "ghost",
         "damage_class": "physical",
@@ -16740,6 +16709,7 @@ MOVE_DATA = {
         "id": 426,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 65,
         "type": "ground",
         "damage_class": "special",
@@ -16777,11 +16747,55 @@ MOVE_DATA = {
         "effect_entries": "Has a 30% chance to lower the target's accuracy by one stage.",
         "flavor_text_entry": "The user launches a hard-packed mud ball to attack. It may also lower the target\u2019s accuracy."
     },
+    "moonblast": {
+        "name": "moonblast",
+        "id": 585,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 15,
+        "power": 95,
+        "type": "fairy",
+        "damage_class": "special",
+        "stat_changes": [
+            {
+                "change": -1,
+                "stat": {
+                    "name": "SpAtk",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            }
+        ],
+        "effect_chance": 30,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage+lower",
+                "url": "https://pokeapi.co/api/v2/move-category/6/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 30
+        },
+        "effect_entries": "Has a 30% chance to lower the target's Special Attack by one stage.",
+        "flavor_text_entry": "Borrowing the power of the moon, the user attacks the target. This may also lower the target\u2019s Sp. Atk stat."
+    },
     "smokescreen": {
         "name": "smokescreen",
         "id": 108,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -16824,6 +16838,7 @@ MOVE_DATA = {
         "id": 261,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "fire",
         "damage_class": "status",
@@ -16858,6 +16873,7 @@ MOVE_DATA = {
         "id": 288,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "ghost",
         "damage_class": "status",
@@ -16892,6 +16908,7 @@ MOVE_DATA = {
         "id": 458,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 35,
         "type": "normal",
         "damage_class": "physical",
@@ -16926,6 +16943,7 @@ MOVE_DATA = {
         "id": 144,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -16960,6 +16978,7 @@ MOVE_DATA = {
         "id": 6,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 40,
         "type": "normal",
         "damage_class": "physical",
@@ -16989,11 +17008,47 @@ MOVE_DATA = {
         "effect_entries": "Scatters money on the ground worth five times the user's level.",
         "flavor_text_entry": "Throws coins. Gets them back later."
     },
+    "wish": {
+        "name": "wish",
+        "id": 273,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 10,
+        "power": None,
+        "type": "normal",
+        "damage_class": "status",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "user",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "unique",
+                "url": "https://pokeapi.co/api/v2/move-category/13/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "User will recover half its max HP at the end of the next turn.",
+        "flavor_text_entry": "A wish that restores HP. It takes time to work."
+    },
     "refresh": {
         "name": "refresh",
         "id": 287,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -17023,11 +17078,62 @@ MOVE_DATA = {
         "effect_entries": "Cleanses the user of a burn, paralysis, or poison.",
         "flavor_text_entry": "Heals poisoning, paralysis, or a burn."
     },
+    "calm-mind": {
+        "name": "calm-mind",
+        "id": 347,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 20,
+        "power": None,
+        "type": "psychic",
+        "damage_class": "status",
+        "stat_changes": [
+            {
+                "change": 1,
+                "stat": {
+                    "name": "SpAtk",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            },
+            {
+                "change": 1,
+                "stat": {
+                    "name": "SpDef",
+                    "url": "https://pokeapi.co/api/v2/stat/5/"
+                }
+            }
+        ],
+        "effect_chance": None,
+        "target": "user",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "net-good-stats",
+                "url": "https://pokeapi.co/api/v2/move-category/2/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Raises the user's Special Attack and Special Defense by one stage.",
+        "flavor_text_entry": "Raises SP. ATK and SP. DEF by focusing the mind."
+    },
     "trump-card": {
         "name": "trump-card",
         "id": 376,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "special",
@@ -17057,11 +17163,82 @@ MOVE_DATA = {
         "effect_entries": "Power increases when this move has less PP, up to a maximum of 200.",
         "flavor_text_entry": "The fewer PP this move has, the greater its attack power."
     },
+    "copycat": {
+        "name": "copycat",
+        "id": 383,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 20,
+        "power": None,
+        "type": "normal",
+        "damage_class": "status",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "user",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "unique",
+                "url": "https://pokeapi.co/api/v2/move-category/13/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Uses the target's last used move.",
+        "flavor_text_entry": "The user mimics the move used immediately before it. The move fails if no other move has been used yet."
+    },
+    "stored-power": {
+        "name": "stored-power",
+        "id": 500,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 10,
+        "power": 20,
+        "type": "psychic",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Power is higher the more the user's stats have been raised, to a maximum of 31\u00d7.",
+        "flavor_text_entry": "The user attacks the target with stored power. The more the user\u2019s stats are raised, the greater the damage."
+    },
     "moonlight": {
         "name": "moonlight",
         "id": 236,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -17096,6 +17273,7 @@ MOVE_DATA = {
         "id": 88,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 15,
         "power": 50,
         "type": "rock",
         "damage_class": "physical",
@@ -17125,11 +17303,62 @@ MOVE_DATA = {
         "effect_entries": "Inflicts regular damage with no additional effect.",
         "flavor_text_entry": "Drops rocks on the enemy."
     },
+    "tearful-look": {
+        "name": "tearful-look",
+        "id": 715,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 20,
+        "power": None,
+        "type": "normal",
+        "damage_class": "status",
+        "stat_changes": [
+            {
+                "change": -1,
+                "stat": {
+                    "name": "Atk",
+                    "url": "https://pokeapi.co/api/v2/stat/2/"
+                }
+            },
+            {
+                "change": -1,
+                "stat": {
+                    "name": "SpAtk",
+                    "url": "https://pokeapi.co/api/v2/stat/4/"
+                }
+            }
+        ],
+        "effect_chance": 100,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "net-good-stats",
+                "url": "https://pokeapi.co/api/v2/move-category/2/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 100
+        },
+        "effect_entries": "Lowers the target's Attack and Special Attack by one stage.",
+        "flavor_text_entry": "The user gets teary eyed to make the target lose its combative spirit. This lowers the target\u2019s Attack and Sp. Atk stats."
+    },
     "wood-hammer": {
         "name": "wood-hammer",
         "id": 452,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 120,
         "type": "grass",
         "damage_class": "physical",
@@ -17164,6 +17393,7 @@ MOVE_DATA = {
         "id": 457,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 5,
         "power": 150,
         "type": "rock",
         "damage_class": "physical",
@@ -17198,6 +17428,7 @@ MOVE_DATA = {
         "id": 518,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "water",
         "damage_class": "special",
@@ -17232,6 +17463,7 @@ MOVE_DATA = {
         "id": 308,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 150,
         "type": "water",
         "damage_class": "special",
@@ -17266,6 +17498,7 @@ MOVE_DATA = {
         "id": 18,
         "accuracy": None,
         "priority": -6,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -17300,6 +17533,7 @@ MOVE_DATA = {
         "id": 64,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 35,
         "type": "flying",
         "damage_class": "physical",
@@ -17334,6 +17568,7 @@ MOVE_DATA = {
         "id": 93,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 50,
         "type": "psychic",
         "damage_class": "special",
@@ -17368,6 +17603,7 @@ MOVE_DATA = {
         "id": 95,
         "accuracy": 60,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -17402,6 +17638,7 @@ MOVE_DATA = {
         "id": 101,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "ghost",
         "damage_class": "special",
@@ -17436,6 +17673,7 @@ MOVE_DATA = {
         "id": 119,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "flying",
         "damage_class": "status",
@@ -17470,6 +17708,7 @@ MOVE_DATA = {
         "id": 193,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -17504,6 +17743,7 @@ MOVE_DATA = {
         "id": 375,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -17538,6 +17778,7 @@ MOVE_DATA = {
         "id": 248,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "psychic",
         "damage_class": "special",
@@ -17572,6 +17813,7 @@ MOVE_DATA = {
         "id": 47,
         "accuracy": 55,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -17606,6 +17848,7 @@ MOVE_DATA = {
         "id": 145,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 40,
         "type": "water",
         "damage_class": "special",
@@ -17613,7 +17856,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -17648,6 +17891,7 @@ MOVE_DATA = {
         "id": 195,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -17677,11 +17921,117 @@ MOVE_DATA = {
         "effect_entries": "User and target both faint after three turns.",
         "flavor_text_entry": "Both user and foe faint in 3 turns."
     },
+    "disarming-voice": {
+        "name": "disarming-voice",
+        "id": 574,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 15,
+        "power": 40,
+        "type": "fairy",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "all-opponents",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Never misses.",
+        "flavor_text_entry": "Letting out a charming cry, the user does emotional damage to opposing Pok\u00e9mon. This attack never misses."
+    },
+    "misty-terrain": {
+        "name": "misty-terrain",
+        "id": 581,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 10,
+        "power": None,
+        "type": "fairy",
+        "damage_class": "status",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "entire-field",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "whole-field-effect",
+                "url": "https://pokeapi.co/api/v2/move-category/10/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "For five turns, protects all Pok\u00e9mon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves.",
+        "flavor_text_entry": "The user covers the ground under everyone\u2019s feet with mist for five turns. This protects Pok\u00e9mon on the ground from status conditions."
+    },
+    "misty-explosion": {
+        "name": "misty-explosion",
+        "id": 802,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 5,
+        "power": 100,
+        "type": "fairy",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "all-other-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Inflicts regular damage with no additional effect.",
+        "flavor_text_entry": "The user attacks everything around it and faints upon using this move. This move\u2019s power is increased on Misty Terrain."
+    },
     "ice-shard": {
         "name": "ice-shard",
         "id": 420,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": 40,
         "type": "ice",
         "damage_class": "physical",
@@ -17716,6 +18066,7 @@ MOVE_DATA = {
         "id": 556,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 85,
         "type": "ice",
         "damage_class": "physical",
@@ -17750,6 +18101,7 @@ MOVE_DATA = {
         "id": 573,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 70,
         "type": "ice",
         "damage_class": "special",
@@ -17784,6 +18136,7 @@ MOVE_DATA = {
         "id": 30,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 65,
         "type": "normal",
         "damage_class": "physical",
@@ -17818,6 +18171,7 @@ MOVE_DATA = {
         "id": 31,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 20,
         "power": 15,
         "type": "normal",
         "damage_class": "physical",
@@ -17852,6 +18206,7 @@ MOVE_DATA = {
         "id": 183,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": 40,
         "type": "fighting",
         "damage_class": "physical",
@@ -17886,6 +18241,7 @@ MOVE_DATA = {
         "id": 410,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": 40,
         "type": "fighting",
         "damage_class": "special",
@@ -17920,6 +18276,7 @@ MOVE_DATA = {
         "id": 418,
         "accuracy": 100,
         "priority": 1,
+        "max_pp": 30,
         "power": 40,
         "type": "steel",
         "damage_class": "physical",
@@ -17954,6 +18311,7 @@ MOVE_DATA = {
         "id": 918,
         "accuracy": 100,
         "priority": 3,
+        "max_pp": 15,
         "power": 65,
         "type": "fighting",
         "damage_class": "physical",
@@ -17962,228 +18320,12 @@ MOVE_DATA = {
         "target": "selected-pokemon",
         "meta": None
     },
-    "quick-guard": {
-        "name": "quick-guard",
-        "id": 501,
-        "accuracy": None,
-        "priority": 3,
-        "power": None,
-        "type": "fighting",
-        "damage_class": "status",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "users-field",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "field-effect",
-                "url": "https://pokeapi.co/api/v2/move-category/11/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Prevents any priority moves from hitting friendly Pok\u00e9mon this turn.",
-        "flavor_text_entry": "The user protects itself and its allies from priority moves. If used in succession, its chance of failing rises."
-    },
-    "grass-pledge": {
-        "name": "grass-pledge",
-        "id": 520,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 80,
-        "type": "grass",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "With Fire Pledge, damages opposing Pok\u00e9mon for 1/8 their max HP every turn for four turns.",
-        "flavor_text_entry": "A column of grass hits opposing Pok\u00e9mon. When used with its water equivalent, its damage increases into a vast swamp."
-    },
-    "leafage": {
-        "name": "leafage",
-        "id": 670,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 40,
-        "type": "grass",
-        "damage_class": "physical",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Inflicts regular damage with no additional effect.",
-        "flavor_text_entry": "The user attacks by pelting the target with leaves."
-    },
-    "leaf-blade": {
-        "name": "leaf-blade",
-        "id": 348,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 90,
-        "type": "grass",
-        "damage_class": "physical",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 1,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Has an increased chance for a critical hit.",
-        "flavor_text_entry": "Slashes with a sharp leaf. High critical-hit ratio."
-    },
-    "frenzy-plant": {
-        "name": "frenzy-plant",
-        "id": 338,
-        "accuracy": 90,
-        "priority": 0,
-        "power": 150,
-        "type": "grass",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "User foregoes its next turn to recharge.",
-        "flavor_text_entry": "Powerful, but leaves the user immobile the next turn."
-    },
-    "dual-chop": {
-        "name": "dual-chop",
-        "id": 530,
-        "accuracy": 90,
-        "priority": 0,
-        "power": 40,
-        "type": "dragon",
-        "damage_class": "physical",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": 2,
-            "max_turns": None,
-            "min_hits": 2,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Hits twice in one turn.",
-        "flavor_text_entry": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row."
-    },
-    "shed-tail": {
-        "name": "shed-tail",
-        "id": 880,
-        "accuracy": None,
-        "priority": 0,
-        "power": 0,
-        "type": "normal",
-        "damage_class": "status",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "user",
-        "meta": None
-    },
     "darkest-lariat": {
         "name": "darkest-lariat",
         "id": 663,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 85,
         "type": "dark",
         "damage_class": "physical",
@@ -18213,11 +18355,47 @@ MOVE_DATA = {
         "effect_entries": "Ignores the target's stat modifiers.",
         "flavor_text_entry": "The user swings both arms and hits the target. The target\u2019s stat changes don\u2019t affect this attack\u2019s damage."
     },
+    "lucky-chant": {
+        "name": "lucky-chant",
+        "id": 381,
+        "accuracy": None,
+        "priority": 0,
+        "max_pp": 30,
+        "power": None,
+        "type": "normal",
+        "damage_class": "status",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "users-field",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "field-effect",
+                "url": "https://pokeapi.co/api/v2/move-category/11/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Prevents the target from scoring critical hits for five turns.",
+        "flavor_text_entry": "The user chants an incantation toward the sky, preventing the foe from landing critical hits."
+    },
     "simple-beam": {
         "name": "simple-beam",
         "id": 493,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -18252,6 +18430,7 @@ MOVE_DATA = {
         "id": 678,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -18286,6 +18465,7 @@ MOVE_DATA = {
         "id": 51,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 40,
         "type": "poison",
         "damage_class": "special",
@@ -18293,7 +18473,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             }
@@ -18328,6 +18508,7 @@ MOVE_DATA = {
         "id": 302,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 60,
         "type": "grass",
         "damage_class": "physical",
@@ -18362,6 +18543,7 @@ MOVE_DATA = {
         "id": 415,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "dark",
         "damage_class": "status",
@@ -18396,6 +18578,7 @@ MOVE_DATA = {
         "id": 681,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 20,
         "type": "dark",
         "damage_class": "physical",
@@ -18430,6 +18613,7 @@ MOVE_DATA = {
         "id": 596,
         "accuracy": None,
         "priority": 4,
+        "max_pp": 10,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -18464,6 +18648,7 @@ MOVE_DATA = {
         "id": 11,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": 55,
         "type": "normal",
         "damage_class": "physical",
@@ -18498,6 +18683,7 @@ MOVE_DATA = {
         "id": 12,
         "accuracy": 30,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "physical",
@@ -18532,6 +18718,7 @@ MOVE_DATA = {
         "id": 152,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 10,
         "power": 100,
         "type": "water",
         "damage_class": "physical",
@@ -18566,6 +18753,7 @@ MOVE_DATA = {
         "id": 534,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "water",
         "damage_class": "physical",
@@ -18573,7 +18761,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -18608,6 +18796,7 @@ MOVE_DATA = {
         "id": 489,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -18615,14 +18804,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
@@ -18664,6 +18853,7 @@ MOVE_DATA = {
         "id": 110,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "water",
         "damage_class": "status",
@@ -18671,7 +18861,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -18706,6 +18896,7 @@ MOVE_DATA = {
         "id": 504,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -18713,35 +18904,35 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             },
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-defense",
+                    "name": "SpDef",
                     "url": "https://pokeapi.co/api/v2/stat/5/"
                 }
             },
             {
                 "change": 2,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 2,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             },
             {
                 "change": 2,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -18771,11 +18962,117 @@ MOVE_DATA = {
         "effect_entries": "Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage.",
         "flavor_text_entry": "The user breaks its shell, lowering its Defense and Sp. Def stats but sharply raising Attack, Sp. Atk, and Speed stats."
     },
+    "grass-pledge": {
+        "name": "grass-pledge",
+        "id": 520,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 10,
+        "power": 80,
+        "type": "grass",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "With Fire Pledge, damages opposing Pok\u00e9mon for 1/8 their max HP every turn for four turns.",
+        "flavor_text_entry": "A column of grass hits opposing Pok\u00e9mon. When used with its water equivalent, its damage increases into a vast swamp."
+    },
+    "leafage": {
+        "name": "leafage",
+        "id": 670,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 40,
+        "power": 40,
+        "type": "grass",
+        "damage_class": "physical",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Inflicts regular damage with no additional effect.",
+        "flavor_text_entry": "The user attacks by pelting the target with leaves."
+    },
+    "frenzy-plant": {
+        "name": "frenzy-plant",
+        "id": 338,
+        "accuracy": 90,
+        "priority": 0,
+        "max_pp": 5,
+        "power": 150,
+        "type": "grass",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "User foregoes its next turn to recharge.",
+        "flavor_text_entry": "Powerful, but leaves the user immobile the next turn."
+    },
     "scorching-sands": {
         "name": "scorching-sands",
         "id": 815,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 70,
         "type": "ground",
         "damage_class": "special",
@@ -18810,6 +19107,7 @@ MOVE_DATA = {
         "id": 838,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 120,
         "type": "ground",
         "damage_class": "physical",
@@ -18823,6 +19121,7 @@ MOVE_DATA = {
         "id": 382,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -18857,6 +19156,7 @@ MOVE_DATA = {
         "id": 541,
         "accuracy": 85,
         "priority": 0,
+        "max_pp": 10,
         "power": 25,
         "type": "normal",
         "damage_class": "physical",
@@ -18891,6 +19191,7 @@ MOVE_DATA = {
         "id": 834,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "water",
         "damage_class": "physical",
@@ -18904,6 +19205,7 @@ MOVE_DATA = {
         "id": 132,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 35,
         "power": 10,
         "type": "normal",
         "damage_class": "physical",
@@ -18911,7 +19213,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -18946,6 +19248,7 @@ MOVE_DATA = {
         "id": 566,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 90,
         "type": "ghost",
         "damage_class": "physical",
@@ -18980,6 +19283,7 @@ MOVE_DATA = {
         "id": 668,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -18987,7 +19291,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -19022,6 +19326,7 @@ MOVE_DATA = {
         "id": 327,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 15,
         "power": 85,
         "type": "fighting",
         "damage_class": "physical",
@@ -19056,6 +19361,7 @@ MOVE_DATA = {
         "id": 361,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -19090,6 +19396,7 @@ MOVE_DATA = {
         "id": 494,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -19124,6 +19431,7 @@ MOVE_DATA = {
         "id": 509,
         "accuracy": 90,
         "priority": -6,
+        "max_pp": 10,
         "power": 60,
         "type": "fighting",
         "damage_class": "physical",
@@ -19158,6 +19466,7 @@ MOVE_DATA = {
         "id": 396,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "fighting",
         "damage_class": "special",
@@ -19192,6 +19501,7 @@ MOVE_DATA = {
         "id": 809,
         "accuracy": 90,
         "priority": 0,
+        "max_pp": 5,
         "power": 110,
         "type": "ghost",
         "damage_class": "physical",
@@ -19226,6 +19536,7 @@ MOVE_DATA = {
         "id": 222,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 30,
         "power": None,
         "type": "ground",
         "damage_class": "physical",
@@ -19260,6 +19571,7 @@ MOVE_DATA = {
         "id": 66,
         "accuracy": 80,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "fighting",
         "damage_class": "physical",
@@ -19294,6 +19606,7 @@ MOVE_DATA = {
         "id": 538,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "grass",
         "damage_class": "status",
@@ -19301,7 +19614,7 @@ MOVE_DATA = {
             {
                 "change": 3,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -19331,11 +19644,47 @@ MOVE_DATA = {
         "effect_entries": "Raises the user's Defense by three stages.",
         "flavor_text_entry": "The user protects itself by wrapping its body in soft cotton, drastically raising the user\u2019s Defense stat."
     },
+    "fairy-wind": {
+        "name": "fairy-wind",
+        "id": 584,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 30,
+        "power": 40,
+        "type": "fairy",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Inflicts regular damage with no additional effect.",
+        "flavor_text_entry": "The user stirs up a fairy wind and strikes the target with it."
+    },
     "final-gambit": {
         "name": "final-gambit",
         "id": 515,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "fighting",
         "damage_class": "special",
@@ -19365,11 +19714,82 @@ MOVE_DATA = {
         "effect_entries": "Inflicts damage equal to the user's remaining HP.  User faints.",
         "flavor_text_entry": "The user risks everything to attack its target. The user faints but does damage equal to the user\u2019s HP."
     },
+    "quick-guard": {
+        "name": "quick-guard",
+        "id": 501,
+        "accuracy": None,
+        "priority": 3,
+        "max_pp": 15,
+        "power": None,
+        "type": "fighting",
+        "damage_class": "status",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "users-field",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "field-effect",
+                "url": "https://pokeapi.co/api/v2/move-category/11/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Prevents any priority moves from hitting friendly Pok\u00e9mon this turn.",
+        "flavor_text_entry": "The user protects itself and its allies from priority moves. If used in succession, its chance of failing rises."
+    },
+    "dual-chop": {
+        "name": "dual-chop",
+        "id": 530,
+        "accuracy": 90,
+        "priority": 0,
+        "max_pp": 15,
+        "power": 40,
+        "type": "dragon",
+        "damage_class": "physical",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": 2,
+            "max_turns": None,
+            "min_hits": 2,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Hits twice in one turn.",
+        "flavor_text_entry": "The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row."
+    },
     "coaching": {
         "name": "coaching",
         "id": 811,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "fighting",
         "damage_class": "status",
@@ -19377,14 +19797,14 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             },
             {
                 "change": 1,
                 "stat": {
-                    "name": "defense",
+                    "name": "Def",
                     "url": "https://pokeapi.co/api/v2/stat/3/"
                 }
             }
@@ -19419,6 +19839,7 @@ MOVE_DATA = {
         "id": 543,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 120,
         "type": "normal",
         "damage_class": "physical",
@@ -19453,6 +19874,7 @@ MOVE_DATA = {
         "id": 805,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 50,
         "type": "normal",
         "damage_class": "special",
@@ -19487,6 +19909,7 @@ MOVE_DATA = {
         "id": 505,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -19521,6 +19944,7 @@ MOVE_DATA = {
         "id": 2,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 50,
         "type": "fighting",
         "damage_class": "physical",
@@ -19550,45 +19974,12 @@ MOVE_DATA = {
         "effect_entries": "Has an increased chance for a critical hit.",
         "flavor_text_entry": "Has a high criti\u00ad cal hit ratio."
     },
-    "false-swipe": {
-        "name": "false-swipe",
-        "id": 206,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 40,
-        "type": "normal",
-        "damage_class": "physical",
-        "stat_changes": [],
-        "effect_chance": None,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "damage",
-                "url": "https://pokeapi.co/api/v2/move-category/0/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Cannot lower the target's HP below 1.",
-        "flavor_text_entry": "Leaves the foe with at least 1HP."
-    },
     "flying-press": {
         "name": "flying-press",
         "id": 560,
         "accuracy": 95,
         "priority": 0,
+        "max_pp": 10,
         "power": 100,
         "type": "fighting",
         "damage_class": "physical",
@@ -19623,6 +20014,7 @@ MOVE_DATA = {
         "id": 377,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -19657,6 +20049,7 @@ MOVE_DATA = {
         "id": 478,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "psychic",
         "damage_class": "status",
@@ -19691,6 +20084,7 @@ MOVE_DATA = {
         "id": 578,
         "accuracy": None,
         "priority": 3,
+        "max_pp": 10,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -19725,6 +20119,7 @@ MOVE_DATA = {
         "id": 587,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "fairy",
         "damage_class": "status",
@@ -19754,11 +20149,47 @@ MOVE_DATA = {
         "effect_entries": "Prevents all Pok\u00e9mon from fleeing or switching out during the next turn.",
         "flavor_text_entry": "By locking down the battlefield, the user keeps all Pok\u00e9mon from fleeing during the next turn."
     },
+    "leaf-blade": {
+        "name": "leaf-blade",
+        "id": 348,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 15,
+        "power": 90,
+        "type": "grass",
+        "damage_class": "physical",
+        "stat_changes": [],
+        "effect_chance": None,
+        "target": "selected-pokemon",
+        "meta": {
+            "ailment": {
+                "name": "none",
+                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
+            },
+            "ailment_chance": 0,
+            "category": {
+                "name": "damage",
+                "url": "https://pokeapi.co/api/v2/move-category/0/"
+            },
+            "crit_rate": 1,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Has an increased chance for a critical hit.",
+        "flavor_text_entry": "Slashes with a sharp leaf. High critical-hit ratio."
+    },
     "spirit-shackle": {
         "name": "spirit-shackle",
         "id": 662,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "ghost",
         "damage_class": "physical",
@@ -19793,6 +20224,7 @@ MOVE_DATA = {
         "id": 395,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 60,
         "type": "fighting",
         "damage_class": "physical",
@@ -19827,6 +20259,7 @@ MOVE_DATA = {
         "id": 659,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "ground",
         "damage_class": "status",
@@ -19861,6 +20294,7 @@ MOVE_DATA = {
         "id": 41,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 25,
         "type": "bug",
         "damage_class": "physical",
@@ -19895,6 +20329,7 @@ MOVE_DATA = {
         "id": 716,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 80,
         "type": "electric",
         "damage_class": "physical",
@@ -19929,6 +20364,7 @@ MOVE_DATA = {
         "id": 336,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 40,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -19936,7 +20372,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "attack",
+                    "name": "Atk",
                     "url": "https://pokeapi.co/api/v2/stat/2/"
                 }
             }
@@ -19966,94 +20402,12 @@ MOVE_DATA = {
         "effect_entries": "Raises the user's Attack by one stage.",
         "flavor_text_entry": "Howls to raise the spirit and boosts ATTACK."
     },
-    "parting-shot": {
-        "name": "parting-shot",
-        "id": 575,
-        "accuracy": 100,
-        "priority": 0,
-        "power": None,
-        "type": "dark",
-        "damage_class": "status",
-        "stat_changes": [
-            {
-                "change": -1,
-                "stat": {
-                    "name": "attack",
-                    "url": "https://pokeapi.co/api/v2/stat/2/"
-                }
-            },
-            {
-                "change": -1,
-                "stat": {
-                    "name": "special-attack",
-                    "url": "https://pokeapi.co/api/v2/stat/4/"
-                }
-            }
-        ],
-        "effect_chance": 100,
-        "target": "selected-pokemon",
-        "meta": {
-            "ailment": {
-                "name": "none",
-                "url": "https://pokeapi.co/api/v2/move-ailment/0/"
-            },
-            "ailment_chance": 0,
-            "category": {
-                "name": "net-good-stats",
-                "url": "https://pokeapi.co/api/v2/move-category/2/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 100
-        },
-        "effect_entries": "Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out.",
-        "flavor_text_entry": "With a parting threat, the user lowers the target\u2019s Attack and Sp. Atk stats. Then it switches with a party Pok\u00e9mon."
-    },
-    "burning-jealousy": {
-        "name": "burning-jealousy",
-        "id": 807,
-        "accuracy": 100,
-        "priority": 0,
-        "power": 70,
-        "type": "fire",
-        "damage_class": "special",
-        "stat_changes": [],
-        "effect_chance": 100,
-        "target": "all-opponents",
-        "meta": {
-            "ailment": {
-                "name": "burn",
-                "url": "https://pokeapi.co/api/v2/move-ailment/4/"
-            },
-            "ailment_chance": 100,
-            "category": {
-                "name": "damage+ailment",
-                "url": "https://pokeapi.co/api/v2/move-category/4/"
-            },
-            "crit_rate": 0,
-            "drain": 0,
-            "flinch_chance": 0,
-            "healing": 0,
-            "max_hits": None,
-            "max_turns": None,
-            "min_hits": None,
-            "min_turns": None,
-            "stat_chance": 0
-        },
-        "effect_entries": "Inflicts regular damage with no additional effect.",
-        "flavor_text_entry": "The user attacks with energy from jealousy. This leaves all opposing Pok\u00e9mon that have had their stats boosted during the turn with a burn."
-    },
     "flare-blitz": {
         "name": "flare-blitz",
         "id": 394,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 120,
         "type": "fire",
         "damage_class": "physical",
@@ -20088,6 +20442,7 @@ MOVE_DATA = {
         "id": 481,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 70,
         "type": "fire",
         "damage_class": "special",
@@ -20122,6 +20477,7 @@ MOVE_DATA = {
         "id": 488,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 50,
         "type": "fire",
         "damage_class": "physical",
@@ -20129,7 +20485,7 @@ MOVE_DATA = {
             {
                 "change": 1,
                 "stat": {
-                    "name": "speed",
+                    "name": "Speed",
                     "url": "https://pokeapi.co/api/v2/stat/6/"
                 }
             }
@@ -20164,6 +20520,7 @@ MOVE_DATA = {
         "id": 517,
         "accuracy": 50,
         "priority": 0,
+        "max_pp": 5,
         "power": 100,
         "type": "fire",
         "damage_class": "special",
@@ -20198,6 +20555,7 @@ MOVE_DATA = {
         "id": 595,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 75,
         "type": "fire",
         "damage_class": "special",
@@ -20205,7 +20563,7 @@ MOVE_DATA = {
             {
                 "change": -1,
                 "stat": {
-                    "name": "special-attack",
+                    "name": "SpAtk",
                     "url": "https://pokeapi.co/api/v2/stat/4/"
                 }
             }
@@ -20235,11 +20593,47 @@ MOVE_DATA = {
         "effect_entries": "Has a 100% chance to lower the target's Special Attack by one stage.",
         "flavor_text_entry": "The user attacks by breathing a special, hot fire. This also lowers the target\u2019s Sp. Atk stat."
     },
+    "burning-jealousy": {
+        "name": "burning-jealousy",
+        "id": 807,
+        "accuracy": 100,
+        "priority": 0,
+        "max_pp": 5,
+        "power": 70,
+        "type": "fire",
+        "damage_class": "special",
+        "stat_changes": [],
+        "effect_chance": 100,
+        "target": "all-opponents",
+        "meta": {
+            "ailment": {
+                "name": "burn",
+                "url": "https://pokeapi.co/api/v2/move-ailment/4/"
+            },
+            "ailment_chance": 100,
+            "category": {
+                "name": "damage+ailment",
+                "url": "https://pokeapi.co/api/v2/move-category/4/"
+            },
+            "crit_rate": 0,
+            "drain": 0,
+            "flinch_chance": 0,
+            "healing": 0,
+            "max_hits": None,
+            "max_turns": None,
+            "min_hits": None,
+            "min_turns": None,
+            "stat_chance": 0
+        },
+        "effect_entries": "Inflicts regular damage with no additional effect.",
+        "flavor_text_entry": "The user attacks with energy from jealousy. This leaves all opposing Pok\u00e9mon that have had their stats boosted during the turn with a burn."
+    },
     "flame-wheel": {
         "name": "flame-wheel",
         "id": 172,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 25,
         "power": 60,
         "type": "fire",
         "damage_class": "physical",
@@ -20274,6 +20668,7 @@ MOVE_DATA = {
         "id": 284,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 150,
         "type": "fire",
         "damage_class": "special",
@@ -20308,6 +20703,7 @@ MOVE_DATA = {
         "id": 436,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 80,
         "type": "fire",
         "damage_class": "special",
@@ -20342,6 +20738,7 @@ MOVE_DATA = {
         "id": 535,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "fire",
         "damage_class": "physical",
@@ -20376,6 +20773,7 @@ MOVE_DATA = {
         "id": 305,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 15,
         "power": 50,
         "type": "poison",
         "damage_class": "physical",
@@ -20410,6 +20808,7 @@ MOVE_DATA = {
         "id": 234,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 5,
         "power": None,
         "type": "normal",
         "damage_class": "status",
@@ -20444,6 +20843,7 @@ MOVE_DATA = {
         "id": 682,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 5,
         "power": 130,
         "type": "fire",
         "damage_class": "special",
@@ -20478,6 +20878,7 @@ MOVE_DATA = {
         "id": 833,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": 120,
         "type": "fire",
         "damage_class": "physical",
@@ -20491,6 +20892,7 @@ MOVE_DATA = {
         "id": 169,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "bug",
         "damage_class": "status",
@@ -20525,6 +20927,7 @@ MOVE_DATA = {
         "id": 380,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 10,
         "power": None,
         "type": "poison",
         "damage_class": "status",
@@ -20559,6 +20962,7 @@ MOVE_DATA = {
         "id": 564,
         "accuracy": None,
         "priority": 0,
+        "max_pp": 20,
         "power": None,
         "type": "bug",
         "damage_class": "status",
@@ -20593,6 +20997,7 @@ MOVE_DATA = {
         "id": 65,
         "accuracy": 100,
         "priority": 0,
+        "max_pp": 20,
         "power": 80,
         "type": "flying",
         "damage_class": "physical",

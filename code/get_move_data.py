@@ -24,6 +24,7 @@ def format_move_data(data):
         move_data['name'] = data['name']
         move_data['accuracy'] = data['accuracy']
         move_data['priority'] = data['priority']
+        move_data['max_pp'] = data['pp']
         move_data['power'] = data['power']
         move_data['type'] = data['type']['name']
         move_data['damage_class'] = data['damage_class']['name']

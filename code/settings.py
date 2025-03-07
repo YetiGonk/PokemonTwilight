@@ -49,19 +49,6 @@ WORLD_LAYERS = {
 	'top': 4
 }
 
-BATTLE_POSITIONS = {
-	'player': (360, 260),
-	'opponent': (900, 260)
-}
-
-BATTLE_LAYERS =  {
-	'bg': 0,
-	'podiums': 1,
-	'monster': 2,
-	'effects': 3,
-	'overlay': 4
-}
-
 MAP_ORDER = {
     'forest_road_intro': {
         "map_name": 'forest_road',
@@ -94,3 +81,24 @@ MAP_ORDER = {
 }
 
 CUTSCENE_ORDER = ['title_intro', 'dad_intro', 'classroom']
+
+BATTLE_CHOICES = {
+    'fight': {'pos': vector(-343.6*2/3, -352.4*2/3), 'icon': 'fight'},
+    'bag': {'pos': vector(-156.7*2/3, -520*2/3), 'icon': 'bag'},
+    'party': {'pos': vector(159.7*2/3, -515.9*2/3), 'icon': 'party'},
+    'run': {'pos': vector(331*2/3, -346.5*2/3), 'icon': 'run'}
+}
+
+BATTLE_ROUND_FLOW = ['select', 'resolve_damage', 'apply_effects', 'text', 'resolve_damage', 'apply_effects', 'text']
+
+BATTLE_TEXT = {
+    'trainer run': ["There's no running from a trainer battle!"],
+    'attempt run': ["You tried to run!"],
+    'fail run': ["You couldn't get away!"],
+    'success run': ["You got away safely!"],
+    'party full': ["Oops! You've got no space in your party!", "Sending to your box..."],
+    'shake 0': ["Oh no! The pokemon broke free!"],
+    'shake 1': ["Aww! It appeared to be caught!"],
+    'shake 2': ["Argh! Almost had it!"],
+    'shake 3': ["Shoot, it was so close too!"]
+}

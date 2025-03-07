@@ -15,7 +15,7 @@ VERSION_GROUPS = [
     "scarlet-violet", "xd", "colosseum"
 ]
 
-POKEDEX = "Deerling Sawsbuck Pachirisu Teddiursa Ursaring Wingull Pelipper Staryu Starmie Spheal Sealeo Walrein Slakoth Vigoroth Slaking Paras Parasect Kecleon Magnemite Magneton Magnezone Trubbish Garbodor Porygon Porygon2 Porygon-Z Miltank Combee Vespiquen Budew Roselia Roserade Bounsweet Steenee Tsareena Pineco Forretress Dratini Dragonair Dragonite Bagon Shelgon Salamence Flabebe Floette Florges Snubbull Granbull Grimer Muk Koffing Weezing Ditto Eevee Jolteon Umbreon Bonsly Sudowoodo Totodile Croconaw Feraligatr Hoothoot Noctowl Azurill Marill Azumarill Swinub Piloswine Mamoswine Tyrogue Treecko Grovyle Sceptile Mudkip Marshtomp Swampert Lotad Lombre Ludicolo Spoink Grumpig Cacnea Cacturne Corphish Crawdaunt Feebas Milotic Turtwig Grotle Torterra Bidoof Bibarel Buizel Floatzel Drifloon Drifblim Buneary Lopunny Rotom Roggenrola Boldore Gigalith Drilbur Excadrill Cottonee Whimsicott Basculin-red-striped Maractus Scraggy Scrafty Tirtouga Carracosta Cubchoo Beartic Bouffalant Rufflet Braviary Clauncher Clawitzer Hawlucha Klefki Rowlet Dartrix Decidueye Morelull Shiinotic Stufful Bewear Sandygast Palossand Togedemaru Nickit Thievul Vulpix Ninetales Torkoal Ralts Kirlia Gardevoir Munna Musharna Sandile Krokorok Krookodile Mightyena Scyther Scizor Growlithe Arcanine Joltik Galvantula Skarmory".split(' ')
+POKEDEX = "Deerling Sawsbuck Pachirisu Teddiursa Ursaring Wingull Pelipper Staryu Starmie Spheal Sealeo Walrein Slakoth Vigoroth Slaking Paras Parasect Kecleon Magnemite Magneton Magnezone Trubbish Garbodor Porygon Porygon2 Porygon-Z Miltank Combee Vespiquen Budew Roselia Roserade Bounsweet Steenee Tsareena Pineco Forretress Dratini Dragonair Dragonite Bagon Shelgon Salamence Flabebe Floette Florges Snubbull Granbull Grimer Muk Koffing Weezing Ditto Eevee Jolteon Umbreon Bonsly Sudowoodo Totodile Croconaw Feraligatr Hoothoot Noctowl Azurill Marill Azumarill Swinub Piloswine Mamoswine Tyrogue Treecko Grovyle Sceptile Mudkip Marshtomp Swampert Lotad Lombre Ludicolo Spoink Grumpig Cacnea Cacturne Corphish Crawdaunt Feebas Milotic Turtwig Grotle Torterra Bidoof Bibarel Buizel Floatzel Drifloon Drifblim Buneary Lopunny Rotom Roggenrola Boldore Gigalith Drilbur Excadrill Cottonee Whimsicott Basculin-red-striped Maractus Scraggy Scrafty Tirtouga Carracosta Cubchoo Beartic Bouffalant Rufflet Braviary Clauncher Clawitzer Hawlucha Klefki Rowlet Dartrix Decidueye Morelull Shiinotic Stufful Bewear Sandygast Palossand Togedemaru Nickit Thievul Vulpix Ninetales Torkoal Ralts Kirlia Gardevoir Munna Musharna Sandile Krokorok Krookodile Mightyena Scyther Scizor Growlithe Arcanine Joltik Galvantula Skarmory Shroomish Breloom".split(' ')
 
 def get_pokemon_data(pokemon_name):
     url = f"https://pokeapi.co/api/v2/pokemon/{unidecode(pokemon_name.lower())}"
@@ -93,7 +93,7 @@ def update_pokemon_data():
             bar()
 
     # Write updated data back to the file
-    with open('game_data.py', 'w') as file:
+    with open('pokemon_data.py', 'w') as file:
         file.write(f'POKEMON_DATA = {json.dumps(POKEMON_DATA, indent=4)}\n')
 
 if __name__ == "__main__":

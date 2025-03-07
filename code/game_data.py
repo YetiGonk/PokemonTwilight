@@ -73,13 +73,13 @@ TRAINER_DATA = {
     },
     'lass classmate 2': {
         'dialog': {
-            'default': ["", ""]
+            'default': ["Huh?", "Oh! You're my first opponent!"]
         },
         'defeated': False
     },
     'lady classmate 2': {
         'dialog': {
-            'default': ["", ""]
+            'default': ["In those shoes?", "Yeah, right!"]
         },
         'defeated': False
     },
@@ -90,10 +90,13 @@ TRAINER_DATA = {
         'defeated': False
     },
     'edward 2': {
-        'pokemon': {},
+        'pokemon': {
+            0: ['vulpix', 25, None, None, ['peck', 'growl', 'leech-life', 'psychic'], None, None, None, None, None],
+            1: ['azurill', 10, None, None, ['tackle', 'water-gun', 'dazzling-gleam', None], None, None, None, None, None]
+        },
         'dialog': {
-            'default': ["", ""],
-            'defeated': ["", ""]
+            'default': ["...", "Whatever."],
+            'defeated': ["...", "I guess you're not as bad as I thought."]
         },
         'defeated': False
     },
@@ -164,31 +167,31 @@ EFFECTIVE_DATA = {
 }
 
 NATURE_DATA = {    
-    "Adamant": {"increased": "Attack", "decreased": "Special Attack"},
-    "Bashful": {"increased": "None", "decreased": "None"},
-    "Bold": {"increased": "Defense", "decreased": "Attack"},
-    "Brave": {"increased": "Attack", "decreased": "Speed"},
-    "Calm": {"increased": "Special Defense", "decreased": "Attack"},
-    "Careful": {"increased": "Special Defense", "decreased": "Special Attack"},
-    "Docile": {"increased": "None", "decreased": "None"},
-    "Gentle": {"increased": "Special Defense", "decreased": "Defense"},
-    "Hardy": {"increased": "None", "decreased": "None"},
-    "Hasty": {"increased": "Speed", "decreased": "Defense"},
-    "Impish": {"increased": "Defense", "decreased": "Special Attack"},
-    "Jolly": {"increased": "Speed", "decreased": "Special Attack"},
-    "Lax": {"increased": "Defense", "decreased": "Special Defense"},
-    "Lonely": {"increased": "Attack", "decreased": "Defense"},
-    "Mild": {"increased": "Special Attack", "decreased": "Defense"},
-    "Modest": {"increased": "Special Attack", "decreased": "Attack"},
-    "Naive": {"increased": "Speed", "decreased": "Special Defense"},
-    "Naughty": {"increased": "Attack", "decreased": "Special Defense"},
-    "Quiet": {"increased": "Special Attack", "decreased": "Speed"},
-    "Quirky": {"increased": "None", "decreased": "None"},
-    "Rash": {"increased": "Special Attack", "decreased": "Special Defense"},
-    "Relaxed": {"increased": "Defense", "decreased": "Speed"},
-    "Sassy": {"increased": "Special Defense", "decreased": "Speed"},
-    "Serious": {"increased": "None", "decreased": "None"},
-    "Timid": {"increased": "Speed", "decreased": "Attack"}
+    "Adamant": {"increased": "Atk", "decreased": "SpAtk"},
+    "Bashful": {"increased": None, "decreased": None},
+    "Bold": {"increased": "Def", "decreased": "Atk"},
+    "Brave": {"increased": "Atk", "decreased": "Speed"},
+    "Calm": {"increased": "SpDef", "decreased": "Atk"},
+    "Careful": {"increased": "SpDef", "decreased": "SpAtk"},
+    "Docile": {"increased": None, "decreased": None},
+    "Gentle": {"increased": "SpDef", "decreased": "Def"},
+    "Hardy": {"increased": None, "decreased": None},
+    "Hasty": {"increased": "Speed", "decreased": "Def"},
+    "Impish": {"increased": "Def", "decreased": "SpAtk"},
+    "Jolly": {"increased": "Speed", "decreased": "SpAtk"},
+    "Lax": {"increased": "Def", "decreased": "SpDef"},
+    "Lonely": {"increased": "Atk", "decreased": "Def"},
+    "Mild": {"increased": "SpAtk", "decreased": "Def"},
+    "Modest": {"increased": "SpAtk", "decreased": "Atk"},
+    "Naive": {"increased": "Speed", "decreased": "SpDef"},
+    "Naughty": {"increased": "Atk", "decreased": "SpDef"},
+    "Quiet": {"increased": "SpAtk", "decreased": "Speed"},
+    "Quirky": {"increased": None, "decreased": None},
+    "Rash": {"increased": "SpAtk", "decreased": "SpDef"},
+    "Relaxed": {"increased": "Def", "decreased": "Speed"},
+    "Sassy": {"increased": "SpDef", "decreased": "Speed"},
+    "Serious": {"increased": None, "decreased": None},
+    "Timid": {"increased": "Speed", "decreased": "Atk"}
 }
 
 NARRATOR_DATA = {

@@ -9457,7 +9457,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -10354,7 +10354,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -11331,7 +11331,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -12559,7 +12559,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -13495,7 +13495,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -33393,6 +33393,1848 @@ POKEMON_DATA = {
         ],
         "genus": "Dragon Pok\u00e9mon"
     },
+    "flabebe": {
+        "id": 669,
+        "name": "flabebe",
+        "base_experience": 61,
+        "height": 1,
+        "weight": 1,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "flower-veil"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "symbiosis"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "vine-whip",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "tackle",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "razor-leaf",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 15,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 48,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "petal-dance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 45,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "psychic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "light-screen",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "charm",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "heal-bell",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "baton-pass",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "rain-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "nature-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "wish",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 20,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "magic-coat",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "endeavor",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "camouflage",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "aromatherapy",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 33,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "covet",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 22,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "calm-mind",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "lucky-chant",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 10,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "copycat",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "captivate",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "after-you",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "echoed-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "stored-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "ally-switch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "petal-blizzard",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 28,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "disarming-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "draining-kiss",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 24,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "misty-terrain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 37,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "fairy-wind",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 6,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "moonblast",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 41,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "dazzling-gleam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "pollen-puff",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "tearful-look",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "trailblaze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "chilling-water",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "alluring-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "flabebe",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 44
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 38
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 39
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 61
+            },
+            {
+                "stat": "SpDef",
+                "effort": 1,
+                "base_stat": 79
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 42
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "fairy"
+            }
+        ],
+        "genus": "Single Bloom Pok\u00e9mon"
+    },
+    "floette": {
+        "id": 670,
+        "name": "floette",
+        "base_experience": 130,
+        "height": 2,
+        "weight": 9,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "flower-veil"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "symbiosis"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "vine-whip",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "tackle",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "razor-leaf",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 15,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 58,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "petal-dance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 51,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "psychic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "light-screen",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "metronome",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "charm",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "heal-bell",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "baton-pass",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "rain-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "nature-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "trick",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "wish",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 20,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "magic-coat",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "endeavor",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "skill-swap",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "aromatherapy",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 38,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "covet",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 25,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "calm-mind",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "lucky-chant",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 10,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "after-you",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "echoed-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "stored-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "ally-switch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "petal-blizzard",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 33,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "disarming-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "draining-kiss",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 27,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "misty-terrain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 43,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "fairy-wind",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 6,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "moonblast",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 46,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "dazzling-gleam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "pollen-puff",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "trailblaze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "chilling-water",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "alluring-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "floette",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 54
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 45
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 47
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 75
+            },
+            {
+                "stat": "SpDef",
+                "effort": 2,
+                "base_stat": 98
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 52
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "fairy"
+            }
+        ],
+        "genus": "Single Bloom Pok\u00e9mon"
+    },
+    "florges": {
+        "id": 671,
+        "name": "florges",
+        "base_experience": 248,
+        "height": 11,
+        "weight": 100,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "flower-veil"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "symbiosis"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "hyper-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "petal-dance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "psychic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "light-screen",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "metronome",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "charm",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "heal-bell",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "baton-pass",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "rain-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "nature-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "trick",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "wish",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "magic-coat",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "endeavor",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "skill-swap",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "aromatherapy",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "covet",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "calm-mind",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "lucky-chant",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "giga-impact",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "defog",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "after-you",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "echoed-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "stored-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "ally-switch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "petal-blizzard",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "disarming-voice",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "draining-kiss",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "flower-shield",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "misty-terrain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "moonblast",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "dazzling-gleam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "pollen-puff",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "misty-explosion",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "trailblaze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "chilling-water",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "alluring-voice",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "psychic-noise",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "florges",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 78
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 65
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 68
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 112
+            },
+            {
+                "stat": "SpDef",
+                "effort": 3,
+                "base_stat": 154
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 75
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "fairy"
+            }
+        ],
+        "genus": "Garden Pok\u00e9mon"
+    },
     "snubbull": {
         "id": 209,
         "name": "snubbull",
@@ -40042,7 +41884,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -52582,6 +54424,2744 @@ POKEMON_DATA = {
         ],
         "genus": "Scuffle Pok\u00e9mon"
     },
+    "treecko": {
+        "id": 252,
+        "name": "treecko",
+        "base_experience": 62,
+        "height": 5,
+        "weight": 50,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "overgrow"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "unburden"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "pound",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "thunder-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "razor-wind",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swords-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "cut",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "slam",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 36,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "double-kick",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "headbutt",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "body-slam",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "take-down",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "double-edge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "leer",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "counter",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "seismic-toss",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "strength",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "absorb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 6,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 26,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "leech-seed",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dig",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "agility",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 31,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "quick-attack",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 11,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mimic",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "screech",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 21,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-slide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "slash",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "thief",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mud-slap",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "detect",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 41,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 46,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "fury-cutter",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dynamic-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "dragon-breath",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "pursuit",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 16,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "iron-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "crunch",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-smash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "focus-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "nature-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "brick-break",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "endeavor",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "mud-sport",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "crush-claw",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-tomb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "grass-whistle",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bullet-seed",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "aerial-ace",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "natural-gift",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "assurance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 18,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "fling",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "night-slash",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "drain-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 51,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "leaf-storm",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "captivate",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "quick-guard",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 41,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "acrobatics",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "grass-pledge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dragon-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "work-up",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sun-moon"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "power-up-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "leafage",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 3,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "breaking-swipe",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "grassy-glide",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "trailblaze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "upper-hand",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "treecko",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 40
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 45
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 35
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 65
+            },
+            {
+                "stat": "SpDef",
+                "effort": 0,
+                "base_stat": 55
+            },
+            {
+                "stat": "Speed",
+                "effort": 1,
+                "base_stat": 70
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "grass"
+            }
+        ],
+        "genus": "Wood Gecko Pok\u00e9mon"
+    },
+    "grovyle": {
+        "id": 253,
+        "name": "grovyle",
+        "base_experience": 142,
+        "height": 9,
+        "weight": 216,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "overgrow"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "unburden"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "pound",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "thunder-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "swords-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "cut",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "slam",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 41,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "double-kick",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "mega-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "headbutt",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "body-slam",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "take-down",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "double-edge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "leer",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "counter",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "seismic-toss",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "strength",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "absorb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 13,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "leech-seed",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dig",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "agility",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 35,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "quick-attack",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mimic",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "screech",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 23,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-slide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "slash",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "thief",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mud-slap",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "detect",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 47,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "false-swipe",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 53,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "fury-cutter",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 16,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dynamic-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "dragon-breath",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "pursuit",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 17,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "iron-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "crunch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "rock-smash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "focus-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "nature-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "brick-break",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "endeavor",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "rock-tomb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bullet-seed",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "aerial-ace",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "leaf-blade",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 29,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "natural-gift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "assurance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 20,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "fling",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "night-slash",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "x-scissor",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "drain-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "vacuum-wave",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "leaf-storm",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 59,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "captivate",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-sweep",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "quick-guard",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 53,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "acrobatics",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "grass-pledge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dragon-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "work-up",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sun-moon"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "power-up-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "solar-blade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "leafage",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "breaking-swipe",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "grassy-glide",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "trailblaze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "upper-hand",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "grovyle",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 50
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 65
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 45
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 85
+            },
+            {
+                "stat": "SpDef",
+                "effort": 0,
+                "base_stat": 65
+            },
+            {
+                "stat": "Speed",
+                "effort": 2,
+                "base_stat": 95
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "grass"
+            }
+        ],
+        "genus": "Wood Gecko Pok\u00e9mon"
+    },
+    "sceptile": {
+        "id": 254,
+        "name": "sceptile",
+        "base_experience": 265,
+        "height": 17,
+        "weight": 522,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "overgrow"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "unburden"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "pound",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "thunder-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "swords-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "cut",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "slam",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 43,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "double-kick",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "mega-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "headbutt",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "body-slam",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "take-down",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "double-edge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "leer",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "roar",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "hyper-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "counter",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "seismic-toss",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "strength",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "absorb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 13,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "leech-seed",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "earthquake",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dig",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "agility",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 35,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "quick-attack",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mimic",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "screech",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 23,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-slide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "slash",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "thief",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mud-slap",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "detect",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 51,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "outrage",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "false-swipe",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 59,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "fury-cutter",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 16,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dynamic-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "dragon-breath",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "pursuit",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 17,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "iron-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "crunch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "rock-smash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "focus-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "nature-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "brick-break",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "endeavor",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "rock-tomb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bullet-seed",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "aerial-ace",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dragon-claw",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "frenzy-plant",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "leaf-blade",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 29,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dragon-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "natural-gift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "assurance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 20,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "fling",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "night-slash",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "x-scissor",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 16,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dragon-pulse",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "drain-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "vacuum-wave",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "focus-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "giga-impact",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-climb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "leaf-storm",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 67,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "cross-poison",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "captivate",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "hone-claws",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-sweep",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "quick-guard",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 57,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "acrobatics",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "grass-pledge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bulldoze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dragon-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "work-up",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sun-moon"
+                }
+            },
+            {
+                "move": "dual-chop",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 36,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "power-up-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "solar-blade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "leafage",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "laser-focus",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "throat-chop",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "brutal-swing",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sun-moon"
+                }
+            },
+            {
+                "move": "breaking-swipe",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "scale-shot",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "grassy-glide",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "shed-tail",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "trailblaze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "dragon-cheer",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "upper-hand",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "sceptile",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 70
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 85
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 65
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 105
+            },
+            {
+                "stat": "SpDef",
+                "effort": 0,
+                "base_stat": 85
+            },
+            {
+                "stat": "Speed",
+                "effort": 3,
+                "base_stat": 120
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "grass"
+            }
+        ],
+        "genus": "Forest Pok\u00e9mon"
+    },
     "mudkip": {
         "id": 258,
         "name": "mudkip",
@@ -61884,7 +66464,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -62655,7 +67235,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -77947,9 +82527,9 @@ POKEMON_DATA = {
         ],
         "genus": "Windveiled Pok\u00e9mon"
     },
-    "basculin": {
+    "basculin-red-striped": {
         "id": 550,
-        "name": "basculin",
+        "name": "basculin-red-striped",
         "base_experience": 161,
         "height": 10,
         "weight": 180,
@@ -87559,7 +92139,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -89011,7 +93591,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -89669,7 +94249,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -90383,7 +94963,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "machine",
                     "level_learned_at": 0,
@@ -95415,6 +99995,788 @@ POKEMON_DATA = {
             }
         ],
         "genus": "Roly-Poly Pok\u00e9mon"
+    },
+    "nickit": {
+        "id": 827,
+        "name": "nickit",
+        "base_experience": 49,
+        "height": 6,
+        "weight": 89,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "run-away"
+            },
+            {
+                "is_hidden": False,
+                "slot": 2,
+                "ability": "unburden"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "stakeout"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "tail-whip",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "dig",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "agility",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "quick-attack",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "screech",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "thief",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "baton-pass",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "beat-up",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 4,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "torment",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "taunt",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "knock-off",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "fake-tears",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "howl",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "mud-shot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "assurance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 16,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "sucker-punch",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 24,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "night-slash",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 28,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "nasty-plot",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 20,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "hone-claws",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 8,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "foul-play",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 36,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "quick-guard",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "tail-slap",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 32,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "snarl",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 12,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "play-rough",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "lash-out",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            }
+        ],
+        "species": "nickit",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 40
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 28
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 28
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 47
+            },
+            {
+                "stat": "SpDef",
+                "effort": 1,
+                "base_stat": 52
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 50
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "dark"
+            }
+        ],
+        "genus": "Fox Pok\u00e9mon"
+    },
+    "thievul": {
+        "id": 828,
+        "name": "thievul",
+        "base_experience": 159,
+        "height": 12,
+        "weight": 199,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "run-away"
+            },
+            {
+                "is_hidden": False,
+                "slot": 2,
+                "ability": "unburden"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "stakeout"
+            }
+        ],
+        "held_items": [],
+        "moves": [
+            {
+                "move": "tail-whip",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "hyper-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "dig",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "psychic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "agility",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "quick-attack",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "screech",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "thief",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "baton-pass",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "crunch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "shadow-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "beat-up",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "taunt",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "fake-tears",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "mud-shot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "u-turn",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "assurance",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 16,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "sucker-punch",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 28,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "dark-pulse",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "night-slash",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 34,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "giga-impact",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "nasty-plot",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 22,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "shadow-claw",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "thunder-fang",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "ice-fang",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "fire-fang",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "hone-claws",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "foul-play",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 46,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "acrobatics",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "tail-slap",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 40,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "snarl",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 12,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "parting-shot",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 52,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "play-rough",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "burning-jealousy",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            },
+            {
+                "move": "lash-out",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "sword-shield"
+                }
+            }
+        ],
+        "species": "thievul",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 70
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 58
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 58
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 87
+            },
+            {
+                "stat": "SpDef",
+                "effort": 2,
+                "base_stat": 92
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 90
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "dark"
+            }
+        ],
+        "genus": "Fox Pok\u00e9mon"
     },
     "vulpix": {
         "id": 37,
@@ -105555,7 +110917,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "level-up",
                     "level_learned_at": 13,
@@ -106322,7 +111684,7 @@ POKEMON_DATA = {
                 }
             },
             {
-                "move": "False-swipe",
+                "move": "false-swipe",
                 "details": {
                     "move_learn_method": "level-up",
                     "level_learned_at": 13,
@@ -110580,5 +115942,1941 @@ POKEMON_DATA = {
             }
         ],
         "genus": "Armor Bird Pok\u00e9mon"
+    },
+    "shroomish": {
+        "id": 285,
+        "name": "shroomish",
+        "base_experience": 59,
+        "height": 4,
+        "weight": 45,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "effect-spore"
+            },
+            {
+                "is_hidden": False,
+                "slot": 2,
+                "ability": "poison-heal"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "quick-feet"
+            }
+        ],
+        "held_items": [
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            }
+        ],
+        "moves": [
+            {
+                "move": "swords-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "headbutt",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 21,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "tackle",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 5,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "body-slam",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "take-down",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "double-edge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "absorb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 17,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "leech-seed",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 13,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "growth",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 33,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "poison-powder",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 25,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "stun-spore",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 9,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mimic",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "spore",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 45,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sludge-bomb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 37,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "charm",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "false-swipe",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rain-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "focus-punch",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "snatch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "fake-tears",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bullet-seed",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "wake-up-slap",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "natural-gift",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 29,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 41,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "drain-punch",
+                "details": {
+                    "move_learn_method": "egg",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "zen-headbutt",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "gunk-shot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "captivate",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "venoshock",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "pounce",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "shroomish",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 1,
+                "base_stat": 60
+            },
+            {
+                "stat": "Atk",
+                "effort": 0,
+                "base_stat": 40
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 60
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 40
+            },
+            {
+                "stat": "SpDef",
+                "effort": 0,
+                "base_stat": 60
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 35
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "grass"
+            }
+        ],
+        "genus": "Mushroom Pok\u00e9mon"
+    },
+    "breloom": {
+        "id": 286,
+        "name": "breloom",
+        "base_experience": 161,
+        "height": 12,
+        "weight": 392,
+        "abilities": [
+            {
+                "is_hidden": False,
+                "slot": 1,
+                "ability": "effect-spore"
+            },
+            {
+                "is_hidden": False,
+                "slot": 2,
+                "ability": "poison-heal"
+            },
+            {
+                "is_hidden": True,
+                "slot": 3,
+                "ability": "technician"
+            }
+        ],
+        "held_items": [
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "tiny-mushroom",
+                "rarity": 50
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "big-mushroom",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            },
+            {
+                "item": "kebia-berry",
+                "rarity": 5
+            }
+        ],
+        "moves": [
+            {
+                "move": "mega-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "thunder-punch",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "swords-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "cut",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-kick",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "headbutt",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 21,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "tackle",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "body-slam",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "take-down",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "double-edge",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "hyper-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-kick",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "counter",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 25,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "seismic-toss",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "strength",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "absorb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mega-drain",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 17,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "leech-seed",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "growth",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "brilliant-diamond-and-shining-pearl"
+                }
+            },
+            {
+                "move": "solar-beam",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "poison-powder",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "brilliant-diamond-and-shining-pearl"
+                }
+            },
+            {
+                "move": "stun-spore",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dig",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "toxic",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mimic",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "double-team",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "spore",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 1,
+                    "version_group": "brilliant-diamond-and-shining-pearl"
+                }
+            },
+            {
+                "move": "flash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rest",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-slide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "substitute",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mind-reader",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 37,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "snore",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "reversal",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "protect",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mach-punch",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 23,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sludge-bomb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mud-slap",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "giga-drain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "endure",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "charm",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "false-swipe",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "swagger",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "fury-cutter",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "attract",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sleep-talk",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "emerald"
+                }
+            },
+            {
+                "move": "return",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "frustration",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "safeguard",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "dynamic-punch",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 45,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "iron-tail",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "synthesis",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "hidden-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rain-dance",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "sunny-day",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "rock-smash",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "facade",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "focus-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "helping-hand",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "superpower",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "brick-break",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "snatch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "secret-power",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "fake-tears",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "rock-tomb",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "sky-uppercut",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 33,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bullet-seed",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "ruby-sapphire"
+                }
+            },
+            {
+                "move": "aerial-ace",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "bulk-up",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "mud-shot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "magical-leaf",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "natural-gift",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "feint",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 19,
+                    "version_group": "omega-ruby-alpha-sapphire"
+                }
+            },
+            {
+                "move": "close-combat",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "fling",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "worry-seed",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "heartgold-soulsilver"
+                }
+            },
+            {
+                "move": "force-palm",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 29,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "poison-jab",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "seed-bomb",
+                "details": {
+                    "move_learn_method": "level-up",
+                    "level_learned_at": 41,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "drain-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "vacuum-wave",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "platinum"
+                }
+            },
+            {
+                "move": "focus-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "energy-ball",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "giga-impact",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "zen-headbutt",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "leaf-storm",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "gunk-shot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "stone-edge",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "captivate",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "diamond-pearl"
+                }
+            },
+            {
+                "move": "grass-knot",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "venoshock",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "low-sweep",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "round",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "retaliate",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "bulldoze",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "work-up",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "black-white"
+                }
+            },
+            {
+                "move": "grassy-terrain",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "confide",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "power-up-punch",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "x-y"
+                }
+            },
+            {
+                "move": "laser-focus",
+                "details": {
+                    "move_learn_method": "tutor",
+                    "level_learned_at": 0,
+                    "version_group": "ultra-sun-ultra-moon"
+                }
+            },
+            {
+                "move": "tera-blast",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            },
+            {
+                "move": "pounce",
+                "details": {
+                    "move_learn_method": "machine",
+                    "level_learned_at": 0,
+                    "version_group": "scarlet-violet"
+                }
+            }
+        ],
+        "species": "breloom",
+        "stats": [
+            {
+                "stat": "HP",
+                "effort": 0,
+                "base_stat": 60
+            },
+            {
+                "stat": "Atk",
+                "effort": 2,
+                "base_stat": 130
+            },
+            {
+                "stat": "Def",
+                "effort": 0,
+                "base_stat": 80
+            },
+            {
+                "stat": "SpAtk",
+                "effort": 0,
+                "base_stat": 60
+            },
+            {
+                "stat": "SpDef",
+                "effort": 0,
+                "base_stat": 60
+            },
+            {
+                "stat": "Speed",
+                "effort": 0,
+                "base_stat": 70
+            }
+        ],
+        "types": [
+            {
+                "slot": 1,
+                "type": "grass"
+            },
+            {
+                "slot": 2,
+                "type": "fighting"
+            }
+        ],
+        "genus": "Mushroom Pok\u00e9mon"
     }
+}
+
+GENDER_RATIOS = {
+    "deerling": 0.5,
+    "staryu": None,
+    "sawsbuck": 0.5,
+    "pachirisu": 0.5,
+    "teddiursa": 0.5,
+    "ursaring": 0.5,
+    "wingull": 0.5,
+    "pelipper": 0.5,
+    "starmie": None,
+    "spheal": 0.5,
+    "sealeo": 0.5,
+    "walrein": 0.5,
+    "slakoth": 0.5,
+    "vigoroth": 0.5,
+    "slaking": 0.5,
+    "paras": 0.5,
+    "parasect": 0.5,
+    "kecleon": 0.5,
+    "magnemite": None,
+    "magneton": None,
+    "magnezone": None,
+    "trubbish": 0.5,
+    "garbodor": 0.5,
+    "porygon": None,
+    "porygon2": None,
+    "porygon-z": None,
+    "miltank": 0,
+    "combee": 0.875,
+    "vespiquen": 0,
+    "budew": 0.5,
+    "roselia": 0.5,
+    "roserade": 0.5,
+    "bounsweet": 0,
+    "steenee": 0,
+    "tsareena": 0,
+    "pineco": 0.5,
+    "forretress": 0.5,
+    "dratini": 0.5,
+    "dragonair": 0.5,
+    "dragonite": 0.5,
+    "bagon": 0.5,
+    "shelgon": 0.5,
+    "salamence": 0.5,
+    "snubbull": 0.5,
+    "granbull": 0.5,
+    "grimer": 0.5,
+    "muk": 0.5,
+    "koffing": 0.5,
+    "weezing": 0.5,
+    "ditto": None,
+    "eevee": 0.875,
+    "jolteon": 0.875,
+    "umbreon": 0.875,
+    "bonsly": 0.5,
+    "sudowoodo": 0.5,
+    "totodile": 0.875,
+    "croconaw": 0.875,
+    "feraligatr": 0.875,
+    "hoothoot": 0.5,
+    "noctowl": 0.5,
+    "azurill": 0.25,
+    "marill": 0.25,
+    "azumarill": 0.25,
+    "swinub": 0.5,
+    "piloswine": 0.5,
+    "mamoswine": 0.5,
+    "tyrogue": 1,
+    "treecko": 0.875,
+    "grovyle": 0.875,
+    "sceptile": 0.875,
+    "mudkip": 0.875,
+    "marshtomp": 0.875,
+    "swampert": 0.875,
+    "lotad": 0.5,
+    "lombre": 0.5,
+    "ludicolo": 0.5,
+    "spoink": 0.5,
+    "grumpig": 0.5,
+    "cacnea": 0.5,
+    "cacturne": 0.5,
+    "corphish": 0.5,
+    "crawdaunt": 0.5,
+    "feebas": 0.5,
+    "milotic": 0.5,
+    "turtwig": 0.875,
+    "grotle": 0.875,
+    "torterra": 0.875,
+    "bidoof": 0.5,
+    "bibarel": 0.5,
+    "buizel": 0.5,
+    "floatzel": 0.5,
+    "drifloon": 0.5,
+    "drifblim": 0.5,
+    "buneary": 0.5,
+    "lopunny": 0.5,
+    "rotom": None,
+    "roggenrola": None,
+    "boldore": None,
+    "gigalith": None,
+    "drilbur": 0.5,
+    "excadrill": 0.5,
+    "cottonee": 0.5,
+    "whimsicott": 0.5,
+    "basculin-red-striped": 0.5,
+    "maractus": 0.5,
+    "scraggy": 0.5,
+    "scrafty": 0.5,
+    "tirtouga": 0.875,
+    "carracosta": 0.875,
+    "cubchoo": 0.5,
+    "beartic": 0.5,
+    "bouffalant": 0.5,
+    "rufflet": 1,
+    "braviary": 1,
+    "clauncher": 1,
+    "clawitzer": 1,
+    "hawlucha": 0.5,
+    "klefki": None,
+    "rowlet": 0.875,
+    "dartrix": 0.875,
+    "decidueye": 0.875,
+    "morelull": 0.5,
+    "shiinotic": 0.5,
+    "stufful": 0.5,
+    "bewear": 0.5,
+    "sandygast": 0.5,
+    "palossand": 0.5,
+    "togedemaru": 0.5,
+    "nickit": 0.5,
+    "thievul": 0.5,
+    "vulpix": 0.25,
+    "ninetales": 0.25,
+    "torkoal": 0.5,
+    "ralts": 0.5,
+    "kirlia": 0.5,
+    "gardevoir": 0.5,
+    "munna": 0.5,
+    "musharna": 0.5,
+    "sandile": 0.5,
+    "krokorok": 0.5,
+    "krookodile": 0.5,
+    "mightyena": 0.5,
+    "scyther": 0.5,
+    "scizor": 0.5,
+    "growlithe": 0.75,
+    "arcanine": 0.75,
+    "joltik": 0.5,
+    "galvantula": 0.5,
+    "skarmory": 0.5,
+    "shroomish": 0.5,
+    "breloom": 0.5,
+}
+
+CATCH_RATES = {
+    "deerling": 190,
+    "sawsbuck": 75,
+    "pachirisu": 200,
+    "teddiursa": 120,
+    "ursaring": 60,
+    "wingull": 190,
+    "pelipper": 45,
+    "staryu": 225,
+    "starmie": 60,
+    "spheal": 255,
+    "sealeo": 120,
+    "walrein": 45,
+    "slakoth": 255,
+    "vigoroth": 120,
+    "slaking": 45,
+    "paras": 190,
+    "parasect": 75,
+    "kecleon": 200,
+    "magnemite": 190,
+    "magneton": 60,
+    "magnezone": 30,
+    "trubbish": 190,
+    "garbodor": 60,
+    "porygon": 45,
+    "porygon2": 45,
+    "porygon-z": 30,
+    "miltank": 45,
+    "combee": 120,
+    "vespiquen": 45,
+    "budew": 255,
+    "roselia": 150,
+    "roserade": 75,
+    "bounsweet": 235,
+    "steenee": 120,
+    "tsareena": 45,
+    "pineco": 190,
+    "forretress": 75,
+    "dratini": 45,
+    "dragonair": 45,
+    "dragonite": 45,
+    "bagon": 45,
+    "shelgon": 45,
+    "salamence": 45,
+    "snubbull": 190,
+    "granbull": 75,
+    "grimer": 190,
+    "muk": 75,
+    "koffing": 190,
+    "weezing": 60,
+    "ditto": 35,
+    "eevee": 45,
+    "jolteon": 45,
+    "umbreon": 45,
+    "bonsly": 255,
+    "sudowoodo": 65,
+    "totodile": 45,
+    "croconaw": 45,
+    "feraligatr": 45,
+    "hoothoot": 255,
+    "noctowl": 90,
+    "azurill": 150,
+    "marill": 190,
+    "azumarill": 75,
+    "swinub": 225,
+    "piloswine": 75,
+    "mamoswine": 50,
+    "tyrogue": 75,
+    "treecko": 45,
+    "grovyle": 45,
+    "sceptile": 45,
+    "mudkip": 45,
+    "marshtomp": 45,
+    "swampert": 45,
+    "lotad": 255,
+    "lombre": 120,
+    "ludicolo": 45,
+    "spoink": 255,
+    "grumpig": 60,
+    "cacnea": 190,
+    "cacturne": 60,
+    "corphish": 205,
+    "crawdaunt": 155,
+    "feebas": 255,
+    "milotic": 60,
+    "turtwig": 45,
+    "grotle": 45,
+    "torterra": 45,
+    "bidoof": 255,
+    "bibarel": 127,
+    "buizel": 190,
+    "floatzel": 75,
+    "drifloon": 125,
+    "drifblim": 60,
+    "buneary": 190,
+    "lopunny": 60,
+    "rotom": 45,
+    "roggenrola": 255,
+    "boldore": 120,
+    "gigalith": 45,
+    "drilbur": 120,
+    "excadrill": 60,
+    "cottonee": 190,
+    "whimsicott": 75,
+    "basculin-red-striped": 25,
+    "maractus": 255,
+    "scraggy": 180,
+    "scrafty": 90,
+    "tirtouga": 45,
+    "carracosta": 45,
+    "cubchoo": 120,
+    "beartic": 60,
+    "bouffalant": 45,
+    "rufflet": 190,
+    "braviary": 60,
+    "clauncher": 225,
+    "clawitzer": 55,
+    "hawlucha": 100,
+    "klefki": 75,
+    "rowlet": 45,
+    "dartrix": 45,
+    "decidueye": 45,
+    "morelull": 190,
+    "shiinotic": 75,
+    "stufful": 140,
+    "bewear": 70,
+    "sandygast": 140,
+    "palossand": 60,
+    "togedemaru": 180,
+    "nickit": 255,
+    "thievul": 127,
+    "vulpix": 190,
+    "ninetales": 75,
+    "torkoal": 90,
+    "ralts": 235,
+    "kirlia": 120,
+    "gardevoir": 45,
+    "munna": 190,
+    "musharna": 75,
+    "sandile": 180,
+    "krokorok": 90,
+    "krookodile": 45,
+    "mightyena": 127,
+    "scyther": 45,
+    "scizor": 25,
+    "growlithe": 190,
+    "arcanine": 75,
+    "joltik": 190,
+    "galvantula": 75,
+    "skarmory": 25,
+    "shroomish": 255,
+    "breloom": 90
 }
